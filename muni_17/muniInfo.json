@@ -1,0 +1,55 @@
+{
+  "Basic Info": {
+    "Instance Name": "muni-fsps-spr17",
+    "Instance Size": "1.47 MB",
+    "Number of Courses": 226,
+    "Number of Classes": 561,
+    "Fixed Classes": 191,
+    "Number of Rooms": 44
+  },
+  "Distribution Constraints": {
+    "Hard Distributions": 331,
+    "Soft Distributions": 69,
+    "Average Penalty": 1.22,
+    "Hard Class Pairs": 2284,
+    "Soft Class Pairs": 851,
+    "Average Pair Penalty": 1.42
+  },
+  "Special Constraints": {
+    "Max Days": 0,
+    "Max Day Load": 0,
+    "Max Breaks": 0,
+    "Max Block": 0
+  },
+  "Students": {
+    "Number of Students": 865,
+    "Average Courses": 7.76,
+    "Average Classes": 11.60
+  },
+  "Domains": {
+    "Classes without Room": 133,
+    "Average Times of a Class": 20.24,
+    "Average Time Penalty": 0.82,
+    "Average Rooms of a Class": 3.15,
+    "Average Room Penalty": 2.14,
+    "Average Domain Size": 55.61,
+    "Average Availability": "92.0%"
+  },
+  "Date & Time Patterns": {
+    "Number of Weeks": 19,
+    "Minutes Per Meeting": 90.97,
+    "Days Per Class": 1.00,
+    "Weeks Per Class": 9.30
+  },
+  "Utilization": {
+    "Minutes Per Class": 731.6,
+    "Minutes Per Room": 6008.9,
+    "Minutes Per Student": 7728.2
+  },
+  "Weights": {
+    "Time Weight": 25,
+    "Room Weight": 1,
+    "Distribution Weight": 15,
+    "Student Weight": 100
+  }
+}

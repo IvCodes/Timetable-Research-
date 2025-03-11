@@ -1,0 +1,32 @@
+{
+  "University of Nottingham Exam Timetabling": {
+    "Year Introduced": 1996,
+    "Constraints": {
+      "Room Capacity": 1550,
+      "Objective (1996)": "Minimize students sitting two consecutive exams on the same day",
+      "Objective (1998)": "Minimize students sitting two consecutive exams on the same day and overnight"
+    },
+    "Problems": [
+      {
+        "Problem": "a",
+        "Exams": 800,
+        "Students": 7896,
+        "Enrolments": 34265,
+        "Density": 0.03,
+        "Timeslots": 23,
+        "Capacity": 1550,
+        "Objective": "Minimize consecutive exams on the same day"
+      },
+      {
+        "Problem": "b",
+        "Exams": 800,
+        "Students": 7896,
+        "Enrolments": 34265,
+        "Density": 0.03,
+        "Timeslots": 23,
+        "Capacity": 1550,
+        "Objective": "Minimize consecutive exams on the same day and overnight"
+      }
+    ]
+  }
+}
