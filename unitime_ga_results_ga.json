@@ -1,0 +1,8064 @@
+{
+  "TUE3": {
+    "37": {
+      "id": "474",
+      "subject": "Course 202 Class 537",
+      "lecturer": "Lecturer 537",
+      "groups": [
+        "group_537"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "115",
+      "subject": "Course 58 Class 115",
+      "lecturer": "Lecturer 115",
+      "groups": [
+        "group_115"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "183",
+      "subject": "Course 90 Class 183",
+      "lecturer": "Lecturer 183",
+      "groups": [
+        "group_183"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "269",
+      "subject": "Course 117 Class 269",
+      "lecturer": "Lecturer 269",
+      "groups": [
+        "group_269"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "530",
+      "subject": "Course 217 Class 489",
+      "lecturer": "Lecturer 489",
+      "groups": [
+        "group_489"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "489",
+      "subject": "Course 202 Class 552",
+      "lecturer": "Lecturer 552",
+      "groups": [
+        "group_552"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON1": {
+    "5": {
+      "id": "545",
+      "subject": "Course 220 Class 519",
+      "lecturer": "Lecturer 519",
+      "groups": [
+        "group_519"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "68",
+      "subject": "Course 39 Class 68",
+      "lecturer": "Lecturer 68",
+      "groups": [
+        "group_68"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "352",
+      "subject": "Course 158 Class 352",
+      "lecturer": "Lecturer 352",
+      "groups": [
+        "group_352"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "10": {
+      "id": "217",
+      "subject": "Course 101 Class 217",
+      "lecturer": "Lecturer 217",
+      "groups": [
+        "group_217"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "10",
+        "code": "10",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "470",
+      "subject": "Course 202 Class 514",
+      "lecturer": "Lecturer 514",
+      "groups": [
+        "group_514"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI7": {
+    "25": {
+      "id": "3",
+      "subject": "Course 2 Class 3",
+      "lecturer": "Lecturer 3",
+      "groups": [
+        "group_3"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "396",
+      "subject": "Course 170 Class 396",
+      "lecturer": "Lecturer 396",
+      "groups": [
+        "group_396"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "27": {
+      "id": "69",
+      "subject": "Course 39 Class 69",
+      "lecturer": "Lecturer 69",
+      "groups": [
+        "group_69"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "273",
+      "subject": "Course 119 Class 273",
+      "lecturer": "Lecturer 273",
+      "groups": [
+        "group_273"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "295",
+      "subject": "Course 130 Class 295",
+      "lecturer": "Lecturer 295",
+      "groups": [
+        "group_295"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "357",
+      "subject": "Course 161 Class 357",
+      "lecturer": "Lecturer 357",
+      "groups": [
+        "group_357"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "398",
+      "subject": "Course 171 Class 398",
+      "lecturer": "Lecturer 398",
+      "groups": [
+        "group_398"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "505",
+      "subject": "Course 208 Class 464",
+      "lecturer": "Lecturer 464",
+      "groups": [
+        "group_464"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI8": {
+    "34": {
+      "id": "422",
+      "subject": "Course 184 Class 422",
+      "lecturer": "Lecturer 422",
+      "groups": [
+        "group_422"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "27": {
+      "id": "93",
+      "subject": "Course 48 Class 93",
+      "lecturer": "Lecturer 93",
+      "groups": [
+        "group_93"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "15": {
+      "id": "108",
+      "subject": "Course 54 Class 108",
+      "lecturer": "Lecturer 108",
+      "groups": [
+        "group_108"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "15",
+        "code": "15",
+        "capacity": 80
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "138",
+      "subject": "Course 70 Class 138",
+      "lecturer": "Lecturer 138",
+      "groups": [
+        "group_138"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "180",
+      "subject": "Course 88 Class 180",
+      "lecturer": "Lecturer 180",
+      "groups": [
+        "group_180"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "329",
+      "subject": "Course 149 Class 329",
+      "lecturer": "Lecturer 329",
+      "groups": [
+        "group_329"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "14": {
+      "id": "349",
+      "subject": "Course 157 Class 349",
+      "lecturer": "Lecturer 349",
+      "groups": [
+        "group_349"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "14",
+        "code": "14",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "471",
+      "subject": "Course 202 Class 517",
+      "lecturer": "Lecturer 517",
+      "groups": [
+        "group_517"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED5": {
+    "27": {
+      "id": "5",
+      "subject": "Course 4 Class 5",
+      "lecturer": "Lecturer 5",
+      "groups": [
+        "group_5"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "383",
+      "subject": "Course 168 Class 383",
+      "lecturer": "Lecturer 383",
+      "groups": [
+        "group_383"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "430",
+      "subject": "Course 191 Class 430",
+      "lecturer": "Lecturer 430",
+      "groups": [
+        "group_430"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "356",
+      "subject": "Course 161 Class 356",
+      "lecturer": "Lecturer 356",
+      "groups": [
+        "group_356"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "552",
+      "subject": "Course 221 Class 526",
+      "lecturer": "Lecturer 526",
+      "groups": [
+        "group_526"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "518",
+      "subject": "Course 214 Class 477",
+      "lecturer": "Lecturer 477",
+      "groups": [
+        "group_477"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI12": {
+    "37": {
+      "id": "381",
+      "subject": "Course 167 Class 381",
+      "lecturer": "Lecturer 381",
+      "groups": [
+        "group_381"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "546",
+      "subject": "Course 221 Class 522",
+      "lecturer": "Lecturer 522",
+      "groups": [
+        "group_522"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "96",
+      "subject": "Course 50 Class 96",
+      "lecturer": "Lecturer 96",
+      "groups": [
+        "group_96"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "127",
+      "subject": "Course 65 Class 127",
+      "lecturer": "Lecturer 127",
+      "groups": [
+        "group_127"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "14": {
+      "id": "142",
+      "subject": "Course 72 Class 142",
+      "lecturer": "Lecturer 142",
+      "groups": [
+        "group_142"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "14",
+        "code": "14",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "407",
+      "subject": "Course 175 Class 407",
+      "lecturer": "Lecturer 407",
+      "groups": [
+        "group_407"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "223",
+      "subject": "Course 103 Class 223",
+      "lecturer": "Lecturer 223",
+      "groups": [
+        "group_223"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "258",
+      "subject": "Course 112 Class 258",
+      "lecturer": "Lecturer 258",
+      "groups": [
+        "group_258"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE6": {
+    "37": {
+      "id": "547",
+      "subject": "Course 221 Class 521",
+      "lecturer": "Lecturer 521",
+      "groups": [
+        "group_521"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "44",
+      "subject": "Course 25 Class 44",
+      "lecturer": "Lecturer 44",
+      "groups": [
+        "group_44"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "199",
+      "subject": "Course 97 Class 199",
+      "lecturer": "Lecturer 199",
+      "groups": [
+        "group_199"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "408",
+      "subject": "Course 176 Class 408",
+      "lecturer": "Lecturer 408",
+      "groups": [
+        "group_408"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "263",
+      "subject": "Course 115 Class 263",
+      "lecturer": "Lecturer 263",
+      "groups": [
+        "group_263"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED9": {
+    "5": {
+      "id": "8",
+      "subject": "Course 5 Class 8",
+      "lecturer": "Lecturer 8",
+      "groups": [
+        "group_8"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "6": {
+      "id": "27",
+      "subject": "Course 16 Class 27",
+      "lecturer": "Lecturer 27",
+      "groups": [
+        "group_27"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "6",
+        "code": "6",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "167",
+      "subject": "Course 84 Class 167",
+      "lecturer": "Lecturer 167",
+      "groups": [
+        "group_167"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "177",
+      "subject": "Course 87 Class 177",
+      "lecturer": "Lecturer 177",
+      "groups": [
+        "group_177"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "293",
+      "subject": "Course 129 Class 293",
+      "lecturer": "Lecturer 293",
+      "groups": [
+        "group_293"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "387",
+      "subject": "Course 169 Class 387",
+      "lecturer": "Lecturer 387",
+      "groups": [
+        "group_387"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "455",
+      "subject": "Course 200 Class 513",
+      "lecturer": "Lecturer 513",
+      "groups": [
+        "group_513"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU8": {
+    "37": {
+      "id": "306",
+      "subject": "Course 137 Class 306",
+      "lecturer": "Lecturer 306",
+      "groups": [
+        "group_306"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "211",
+      "subject": "Course 98 Class 211",
+      "lecturer": "Lecturer 211",
+      "groups": [
+        "group_211"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "15": {
+      "id": "26",
+      "subject": "Course 15 Class 26",
+      "lecturer": "Lecturer 26",
+      "groups": [
+        "group_26"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "15",
+        "code": "15",
+        "capacity": 80
+      },
+      "algorithm": "ga"
+    },
+    "27": {
+      "id": "101",
+      "subject": "Course 52 Class 101",
+      "lecturer": "Lecturer 101",
+      "groups": [
+        "group_101"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "194",
+      "subject": "Course 94 Class 194",
+      "lecturer": "Lecturer 194",
+      "groups": [
+        "group_194"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "259",
+      "subject": "Course 112 Class 259",
+      "lecturer": "Lecturer 259",
+      "groups": [
+        "group_259"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "413",
+      "subject": "Course 179 Class 413",
+      "lecturer": "Lecturer 413",
+      "groups": [
+        "group_413"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU2": {
+    "5": {
+      "id": "404",
+      "subject": "Course 173 Class 404",
+      "lecturer": "Lecturer 404",
+      "groups": [
+        "group_404"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "184",
+      "subject": "Course 91 Class 184",
+      "lecturer": "Lecturer 184",
+      "groups": [
+        "group_184"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "473",
+      "subject": "Course 202 Class 536",
+      "lecturer": "Lecturer 536",
+      "groups": [
+        "group_536"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "488",
+      "subject": "Course 202 Class 551",
+      "lecturer": "Lecturer 551",
+      "groups": [
+        "group_551"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "323",
+      "subject": "Course 149 Class 323",
+      "lecturer": "Lecturer 323",
+      "groups": [
+        "group_323"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "14": {
+      "id": "365",
+      "subject": "Course 166 Class 365",
+      "lecturer": "Lecturer 365",
+      "groups": [
+        "group_365"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "14",
+        "code": "14",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "10": {
+      "id": "504",
+      "subject": "Course 207 Class 463",
+      "lecturer": "Lecturer 463",
+      "groups": [
+        "group_463"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "10",
+        "code": "10",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED4": {
+    "34": {
+      "id": "28",
+      "subject": "Course 16 Class 28",
+      "lecturer": "Lecturer 28",
+      "groups": [
+        "group_28"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "116",
+      "subject": "Course 59 Class 116",
+      "lecturer": "Lecturer 116",
+      "groups": [
+        "group_116"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "388",
+      "subject": "Course 169 Class 388",
+      "lecturer": "Lecturer 388",
+      "groups": [
+        "group_388"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "465",
+      "subject": "Course 202 Class 457",
+      "lecturer": "Lecturer 457",
+      "groups": [
+        "group_457"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "525",
+      "subject": "Course 215 Class 484",
+      "lecturer": "Lecturer 484",
+      "groups": [
+        "group_484"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE5": {
+    "34": {
+      "id": "14",
+      "subject": "Course 8 Class 14",
+      "lecturer": "Lecturer 14",
+      "groups": [
+        "group_14"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "87",
+      "subject": "Course 46 Class 87",
+      "lecturer": "Lecturer 87",
+      "groups": [
+        "group_87"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "434",
+      "subject": "Course 194 Class 433",
+      "lecturer": "Lecturer 433",
+      "groups": [
+        "group_433"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "291",
+      "subject": "Course 128 Class 291",
+      "lecturer": "Lecturer 291",
+      "groups": [
+        "group_291"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "6": {
+      "id": "332",
+      "subject": "Course 150 Class 332",
+      "lecturer": "Lecturer 332",
+      "groups": [
+        "group_332"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "6",
+        "code": "6",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "527",
+      "subject": "Course 216 Class 486",
+      "lecturer": "Lecturer 486",
+      "groups": [
+        "group_486"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU10": {
+    "5": {
+      "id": "512",
+      "subject": "Course 211 Class 471",
+      "lecturer": "Lecturer 471",
+      "groups": [
+        "group_471"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "33": {
+      "id": "81",
+      "subject": "Course 46 Class 81",
+      "lecturer": "Lecturer 81",
+      "groups": [
+        "group_81"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "33",
+        "code": "33",
+        "capacity": 126
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "498",
+      "subject": "Course 202 Class 534",
+      "lecturer": "Lecturer 534",
+      "groups": [
+        "group_534"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "222",
+      "subject": "Course 102 Class 222",
+      "lecturer": "Lecturer 222",
+      "groups": [
+        "group_222"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "345",
+      "subject": "Course 155 Class 345",
+      "lecturer": "Lecturer 345",
+      "groups": [
+        "group_345"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "377",
+      "subject": "Course 167 Class 377",
+      "lecturer": "Lecturer 377",
+      "groups": [
+        "group_377"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU3": {
+    "34": {
+      "id": "500",
+      "subject": "Course 203 Class 459",
+      "lecturer": "Lecturer 459",
+      "groups": [
+        "group_459"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "79",
+      "subject": "Course 45 Class 79",
+      "lecturer": "Lecturer 79",
+      "groups": [
+        "group_79"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "542",
+      "subject": "Course 219 Class 553",
+      "lecturer": "Lecturer 553",
+      "groups": [
+        "group_553"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "172",
+      "subject": "Course 86 Class 172",
+      "lecturer": "Lecturer 172",
+      "groups": [
+        "group_172"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "394",
+      "subject": "Course 170 Class 394",
+      "lecturer": "Lecturer 394",
+      "groups": [
+        "group_394"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE2": {
+    "5": {
+      "id": "301",
+      "subject": "Course 132 Class 301",
+      "lecturer": "Lecturer 301",
+      "groups": [
+        "group_301"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "191",
+      "subject": "Course 93 Class 191",
+      "lecturer": "Lecturer 191",
+      "groups": [
+        "group_191"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "238",
+      "subject": "Course 105 Class 238",
+      "lecturer": "Lecturer 238",
+      "groups": [
+        "group_238"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "544",
+      "subject": "Course 220 Class 506",
+      "lecturer": "Lecturer 506",
+      "groups": [
+        "group_506"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU1": {
+    "5": {
+      "id": "462",
+      "subject": "Course 202 Class 454",
+      "lecturer": "Lecturer 454",
+      "groups": [
+        "group_454"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "37",
+      "subject": "Course 20 Class 37",
+      "lecturer": "Lecturer 37",
+      "groups": [
+        "group_37"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "487",
+      "subject": "Course 202 Class 550",
+      "lecturer": "Lecturer 550",
+      "groups": [
+        "group_550"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "6": {
+      "id": "107",
+      "subject": "Course 53 Class 107",
+      "lecturer": "Lecturer 107",
+      "groups": [
+        "group_107"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "6",
+        "code": "6",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "221",
+      "subject": "Course 101 Class 221",
+      "lecturer": "Lecturer 221",
+      "groups": [
+        "group_221"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "344",
+      "subject": "Course 155 Class 344",
+      "lecturer": "Lecturer 344",
+      "groups": [
+        "group_344"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "513",
+      "subject": "Course 212 Class 472",
+      "lecturer": "Lecturer 472",
+      "groups": [
+        "group_472"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU7": {
+    "34": {
+      "id": "516",
+      "subject": "Course 213 Class 475",
+      "lecturer": "Lecturer 475",
+      "groups": [
+        "group_475"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "288",
+      "subject": "Course 127 Class 288",
+      "lecturer": "Lecturer 288",
+      "groups": [
+        "group_288"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "114",
+      "subject": "Course 57 Class 114",
+      "lecturer": "Lecturer 114",
+      "groups": [
+        "group_114"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "296",
+      "subject": "Course 130 Class 296",
+      "lecturer": "Lecturer 296",
+      "groups": [
+        "group_296"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "560",
+      "subject": "Course 226 Class 560",
+      "lecturer": "Lecturer 560",
+      "groups": [
+        "group_560"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI10": {
+    "34": {
+      "id": "122",
+      "subject": "Course 62 Class 122",
+      "lecturer": "Lecturer 122",
+      "groups": [
+        "group_122"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "149",
+      "subject": "Course 75 Class 149",
+      "lecturer": "Lecturer 149",
+      "groups": [
+        "group_149"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "484",
+      "subject": "Course 202 Class 547",
+      "lecturer": "Lecturer 547",
+      "groups": [
+        "group_547"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "486",
+      "subject": "Course 202 Class 549",
+      "lecturer": "Lecturer 549",
+      "groups": [
+        "group_549"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "535",
+      "subject": "Course 219 Class 494",
+      "lecturer": "Lecturer 494",
+      "groups": [
+        "group_494"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "558",
+      "subject": "Course 224 Class 558",
+      "lecturer": "Lecturer 558",
+      "groups": [
+        "group_558"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU6": {
+    "34": {
+      "id": "399",
+      "subject": "Course 171 Class 399",
+      "lecturer": "Lecturer 399",
+      "groups": [
+        "group_399"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "499",
+      "subject": "Course 202 Class 535",
+      "lecturer": "Lecturer 535",
+      "groups": [
+        "group_535"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "193",
+      "subject": "Course 94 Class 193",
+      "lecturer": "Lecturer 193",
+      "groups": [
+        "group_193"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "447",
+      "subject": "Course 199 Class 446",
+      "lecturer": "Lecturer 446",
+      "groups": [
+        "group_446"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "519",
+      "subject": "Course 214 Class 478",
+      "lecturer": "Lecturer 478",
+      "groups": [
+        "group_478"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "557",
+      "subject": "Course 224 Class 557",
+      "lecturer": "Lecturer 557",
+      "groups": [
+        "group_557"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON8": {
+    "10": {
+      "id": "25",
+      "subject": "Course 14 Class 25",
+      "lecturer": "Lecturer 25",
+      "groups": [
+        "group_25"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "10",
+        "code": "10",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "35",
+      "subject": "Course 19 Class 35",
+      "lecturer": "Lecturer 35",
+      "groups": [
+        "group_35"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "468",
+      "subject": "Course 202 Class 507",
+      "lecturer": "Lecturer 507",
+      "groups": [
+        "group_507"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "446",
+      "subject": "Course 199 Class 445",
+      "lecturer": "Lecturer 445",
+      "groups": [
+        "group_445"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "234",
+      "subject": "Course 103 Class 234",
+      "lecturer": "Lecturer 234",
+      "groups": [
+        "group_234"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "268",
+      "subject": "Course 117 Class 268",
+      "lecturer": "Lecturer 268",
+      "groups": [
+        "group_268"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "347",
+      "subject": "Course 156 Class 347",
+      "lecturer": "Lecturer 347",
+      "groups": [
+        "group_347"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "543",
+      "subject": "Course 220 Class 503",
+      "lecturer": "Lecturer 503",
+      "groups": [
+        "group_503"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "503",
+      "subject": "Course 206 Class 462",
+      "lecturer": "Lecturer 462",
+      "groups": [
+        "group_462"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON3": {
+    "21": {
+      "id": "29",
+      "subject": "Course 16 Class 29",
+      "lecturer": "Lecturer 29",
+      "groups": [
+        "group_29"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "10": {
+      "id": "147",
+      "subject": "Course 75 Class 147",
+      "lecturer": "Lecturer 147",
+      "groups": [
+        "group_147"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "10",
+        "code": "10",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "155",
+      "subject": "Course 77 Class 155",
+      "lecturer": "Lecturer 155",
+      "groups": [
+        "group_155"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "480",
+      "subject": "Course 202 Class 543",
+      "lecturer": "Lecturer 543",
+      "groups": [
+        "group_543"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "429",
+      "subject": "Course 190 Class 429",
+      "lecturer": "Lecturer 429",
+      "groups": [
+        "group_429"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "461",
+      "subject": "Course 202 Class 453",
+      "lecturer": "Lecturer 453",
+      "groups": [
+        "group_453"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "520",
+      "subject": "Course 214 Class 479",
+      "lecturer": "Lecturer 479",
+      "groups": [
+        "group_479"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED12": {
+    "34": {
+      "id": "435",
+      "subject": "Course 194 Class 434",
+      "lecturer": "Lecturer 434",
+      "groups": [
+        "group_434"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "27": {
+      "id": "49",
+      "subject": "Course 30 Class 49",
+      "lecturer": "Lecturer 49",
+      "groups": [
+        "group_49"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "378",
+      "subject": "Course 167 Class 378",
+      "lecturer": "Lecturer 378",
+      "groups": [
+        "group_378"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "95",
+      "subject": "Course 49 Class 95",
+      "lecturer": "Lecturer 95",
+      "groups": [
+        "group_95"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "113",
+      "subject": "Course 56 Class 113",
+      "lecturer": "Lecturer 113",
+      "groups": [
+        "group_113"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "123",
+      "subject": "Course 63 Class 123",
+      "lecturer": "Lecturer 123",
+      "groups": [
+        "group_123"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "233",
+      "subject": "Course 103 Class 233",
+      "lecturer": "Lecturer 233",
+      "groups": [
+        "group_233"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "501",
+      "subject": "Course 204 Class 460",
+      "lecturer": "Lecturer 460",
+      "groups": [
+        "group_460"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE1": {
+    "35": {
+      "id": "31",
+      "subject": "Course 16 Class 31",
+      "lecturer": "Lecturer 31",
+      "groups": [
+        "group_31"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "70",
+      "subject": "Course 39 Class 70",
+      "lecturer": "Lecturer 70",
+      "groups": [
+        "group_70"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "311",
+      "subject": "Course 140 Class 311",
+      "lecturer": "Lecturer 311",
+      "groups": [
+        "group_311"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "337",
+      "subject": "Course 151 Class 337",
+      "lecturer": "Lecturer 337",
+      "groups": [
+        "group_337"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "456",
+      "subject": "Course 200 Class 502",
+      "lecturer": "Lecturer 502",
+      "groups": [
+        "group_502"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "439",
+      "subject": "Course 195 Class 438",
+      "lecturer": "Lecturer 438",
+      "groups": [
+        "group_438"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON11": {
+    "14": {
+      "id": "32",
+      "subject": "Course 17 Class 32",
+      "lecturer": "Lecturer 32",
+      "groups": [
+        "group_32"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "14",
+        "code": "14",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "529",
+      "subject": "Course 217 Class 488",
+      "lecturer": "Lecturer 488",
+      "groups": [
+        "group_488"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "57",
+      "subject": "Course 34 Class 57",
+      "lecturer": "Lecturer 57",
+      "groups": [
+        "group_57"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "206",
+      "subject": "Course 97 Class 206",
+      "lecturer": "Lecturer 206",
+      "groups": [
+        "group_206"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "326",
+      "subject": "Course 149 Class 326",
+      "lecturer": "Lecturer 326",
+      "groups": [
+        "group_326"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "550",
+      "subject": "Course 221 Class 523",
+      "lecturer": "Lecturer 523",
+      "groups": [
+        "group_523"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI11": {
+    "7": {
+      "id": "34",
+      "subject": "Course 19 Class 34",
+      "lecturer": "Lecturer 34",
+      "groups": [
+        "group_34"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "50",
+      "subject": "Course 30 Class 50",
+      "lecturer": "Lecturer 50",
+      "groups": [
+        "group_50"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "533",
+      "subject": "Course 219 Class 492",
+      "lecturer": "Lecturer 492",
+      "groups": [
+        "group_492"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "497",
+      "subject": "Course 202 Class 533",
+      "lecturer": "Lecturer 533",
+      "groups": [
+        "group_533"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "281",
+      "subject": "Course 122 Class 281",
+      "lecturer": "Lecturer 281",
+      "groups": [
+        "group_281"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "401",
+      "subject": "Course 172 Class 401",
+      "lecturer": "Lecturer 401",
+      "groups": [
+        "group_401"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON4": {
+    "5": {
+      "id": "118",
+      "subject": "Course 59 Class 118",
+      "lecturer": "Lecturer 118",
+      "groups": [
+        "group_118"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "410",
+      "subject": "Course 177 Class 410",
+      "lecturer": "Lecturer 410",
+      "groups": [
+        "group_410"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "140",
+      "subject": "Course 71 Class 140",
+      "lecturer": "Lecturer 140",
+      "groups": [
+        "group_140"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "363",
+      "subject": "Course 165 Class 363",
+      "lecturer": "Lecturer 363",
+      "groups": [
+        "group_363"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "330",
+      "subject": "Course 149 Class 330",
+      "lecturer": "Lecturer 330",
+      "groups": [
+        "group_330"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE12": {
+    "25": {
+      "id": "38",
+      "subject": "Course 21 Class 38",
+      "lecturer": "Lecturer 38",
+      "groups": [
+        "group_38"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "251",
+      "subject": "Course 110 Class 251",
+      "lecturer": "Lecturer 251",
+      "groups": [
+        "group_251"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "188",
+      "subject": "Course 92 Class 188",
+      "lecturer": "Lecturer 188",
+      "groups": [
+        "group_188"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "346",
+      "subject": "Course 156 Class 346",
+      "lecturer": "Lecturer 346",
+      "groups": [
+        "group_346"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "14": {
+      "id": "361",
+      "subject": "Course 164 Class 361",
+      "lecturer": "Lecturer 361",
+      "groups": [
+        "group_361"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "14",
+        "code": "14",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE4": {
+    "34": {
+      "id": "61",
+      "subject": "Course 35 Class 61",
+      "lecturer": "Lecturer 61",
+      "groups": [
+        "group_61"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "27": {
+      "id": "51",
+      "subject": "Course 31 Class 51",
+      "lecturer": "Lecturer 51",
+      "groups": [
+        "group_51"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "130",
+      "subject": "Course 67 Class 130",
+      "lecturer": "Lecturer 130",
+      "groups": [
+        "group_130"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "224",
+      "subject": "Course 103 Class 224",
+      "lecturer": "Lecturer 224",
+      "groups": [
+        "group_224"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "315",
+      "subject": "Course 144 Class 315",
+      "lecturer": "Lecturer 315",
+      "groups": [
+        "group_315"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "324",
+      "subject": "Course 149 Class 324",
+      "lecturer": "Lecturer 324",
+      "groups": [
+        "group_324"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "555",
+      "subject": "Course 223 Class 555",
+      "lecturer": "Lecturer 555",
+      "groups": [
+        "group_555"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON12": {
+    "37": {
+      "id": "477",
+      "subject": "Course 202 Class 540",
+      "lecturer": "Lecturer 540",
+      "groups": [
+        "group_540"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "27": {
+      "id": "103",
+      "subject": "Course 52 Class 103",
+      "lecturer": "Lecturer 103",
+      "groups": [
+        "group_103"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "136",
+      "subject": "Course 69 Class 136",
+      "lecturer": "Lecturer 136",
+      "groups": [
+        "group_136"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "137",
+      "subject": "Course 69 Class 137",
+      "lecturer": "Lecturer 137",
+      "groups": [
+        "group_137"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "160",
+      "subject": "Course 79 Class 160",
+      "lecturer": "Lecturer 160",
+      "groups": [
+        "group_160"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "264",
+      "subject": "Course 115 Class 264",
+      "lecturer": "Lecturer 264",
+      "groups": [
+        "group_264"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "517",
+      "subject": "Course 213 Class 476",
+      "lecturer": "Lecturer 476",
+      "groups": [
+        "group_476"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE7": {
+    "34": {
+      "id": "314",
+      "subject": "Course 143 Class 314",
+      "lecturer": "Lecturer 314",
+      "groups": [
+        "group_314"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "56",
+      "subject": "Course 33 Class 56",
+      "lecturer": "Lecturer 56",
+      "groups": [
+        "group_56"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "175",
+      "subject": "Course 87 Class 175",
+      "lecturer": "Lecturer 175",
+      "groups": [
+        "group_175"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "164",
+      "subject": "Course 81 Class 164",
+      "lecturer": "Lecturer 164",
+      "groups": [
+        "group_164"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "358",
+      "subject": "Course 161 Class 358",
+      "lecturer": "Lecturer 358",
+      "groups": [
+        "group_358"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "502",
+      "subject": "Course 205 Class 461",
+      "lecturer": "Lecturer 461",
+      "groups": [
+        "group_461"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "508",
+      "subject": "Course 210 Class 467",
+      "lecturer": "Lecturer 467",
+      "groups": [
+        "group_467"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED3": {
+    "37": {
+      "id": "548",
+      "subject": "Course 221 Class 520",
+      "lecturer": "Lecturer 520",
+      "groups": [
+        "group_520"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "195",
+      "subject": "Course 95 Class 195",
+      "lecturer": "Lecturer 195",
+      "groups": [
+        "group_195"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "448",
+      "subject": "Course 199 Class 447",
+      "lecturer": "Lecturer 447",
+      "groups": [
+        "group_447"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "257",
+      "subject": "Course 112 Class 257",
+      "lecturer": "Lecturer 257",
+      "groups": [
+        "group_257"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "353",
+      "subject": "Course 159 Class 353",
+      "lecturer": "Lecturer 353",
+      "groups": [
+        "group_353"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "506",
+      "subject": "Course 209 Class 465",
+      "lecturer": "Lecturer 465",
+      "groups": [
+        "group_465"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE10": {
+    "5": {
+      "id": "304",
+      "subject": "Course 135 Class 304",
+      "lecturer": "Lecturer 304",
+      "groups": [
+        "group_304"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "14": {
+      "id": "62",
+      "subject": "Course 36 Class 62",
+      "lecturer": "Lecturer 62",
+      "groups": [
+        "group_62"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "14",
+        "code": "14",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "449",
+      "subject": "Course 200 Class 448",
+      "lecturer": "Lecturer 448",
+      "groups": [
+        "group_448"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "214",
+      "subject": "Course 99 Class 214",
+      "lecturer": "Lecturer 214",
+      "groups": [
+        "group_214"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "236",
+      "subject": "Course 103 Class 236",
+      "lecturer": "Lecturer 236",
+      "groups": [
+        "group_236"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "366",
+      "subject": "Course 166 Class 366",
+      "lecturer": "Lecturer 366",
+      "groups": [
+        "group_366"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "400",
+      "subject": "Course 171 Class 400",
+      "lecturer": "Lecturer 400",
+      "groups": [
+        "group_400"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI4": {
+    "5": {
+      "id": "402",
+      "subject": "Course 173 Class 402",
+      "lecturer": "Lecturer 402",
+      "groups": [
+        "group_402"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "73",
+      "subject": "Course 41 Class 73",
+      "lecturer": "Lecturer 73",
+      "groups": [
+        "group_73"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "133",
+      "subject": "Course 67 Class 133",
+      "lecturer": "Lecturer 133",
+      "groups": [
+        "group_133"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "196",
+      "subject": "Course 95 Class 196",
+      "lecturer": "Lecturer 196",
+      "groups": [
+        "group_196"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON9": {
+    "37": {
+      "id": "55",
+      "subject": "Course 32 Class 55",
+      "lecturer": "Lecturer 55",
+      "groups": [
+        "group_55"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "253",
+      "subject": "Course 111 Class 253",
+      "lecturer": "Lecturer 253",
+      "groups": [
+        "group_253"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "33": {
+      "id": "145",
+      "subject": "Course 73 Class 145",
+      "lecturer": "Lecturer 145",
+      "groups": [
+        "group_145"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "33",
+        "code": "33",
+        "capacity": 126
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "153",
+      "subject": "Course 76 Class 153",
+      "lecturer": "Lecturer 153",
+      "groups": [
+        "group_153"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "418",
+      "subject": "Course 181 Class 418",
+      "lecturer": "Lecturer 418",
+      "groups": [
+        "group_418"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "220",
+      "subject": "Course 101 Class 220",
+      "lecturer": "Lecturer 220",
+      "groups": [
+        "group_220"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "528",
+      "subject": "Course 216 Class 487",
+      "lecturer": "Lecturer 487",
+      "groups": [
+        "group_487"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU9": {
+    "37": {
+      "id": "427",
+      "subject": "Course 188 Class 427",
+      "lecturer": "Lecturer 427",
+      "groups": [
+        "group_427"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "161",
+      "subject": "Course 80 Class 161",
+      "lecturer": "Lecturer 161",
+      "groups": [
+        "group_161"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "173",
+      "subject": "Course 86 Class 173",
+      "lecturer": "Lecturer 173",
+      "groups": [
+        "group_173"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "331",
+      "subject": "Course 149 Class 331",
+      "lecturer": "Lecturer 331",
+      "groups": [
+        "group_331"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "262",
+      "subject": "Course 114 Class 262",
+      "lecturer": "Lecturer 262",
+      "groups": [
+        "group_262"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "490",
+      "subject": "Course 202 Class 510",
+      "lecturer": "Lecturer 510",
+      "groups": [
+        "group_510"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "556",
+      "subject": "Course 223 Class 556",
+      "lecturer": "Lecturer 556",
+      "groups": [
+        "group_556"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE11": {
+    "37": {
+      "id": "561",
+      "subject": "Course 226 Class 561",
+      "lecturer": "Lecturer 561",
+      "groups": [
+        "group_561"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "541",
+      "subject": "Course 219 Class 516",
+      "lecturer": "Lecturer 516",
+      "groups": [
+        "group_516"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "6": {
+      "id": "141",
+      "subject": "Course 72 Class 141",
+      "lecturer": "Lecturer 141",
+      "groups": [
+        "group_141"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "6",
+        "code": "6",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "146",
+      "subject": "Course 74 Class 146",
+      "lecturer": "Lecturer 146",
+      "groups": [
+        "group_146"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "282",
+      "subject": "Course 123 Class 282",
+      "lecturer": "Lecturer 282",
+      "groups": [
+        "group_282"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "540",
+      "subject": "Course 219 Class 504",
+      "lecturer": "Lecturer 504",
+      "groups": [
+        "group_504"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED10": {
+    "18": {
+      "id": "63",
+      "subject": "Course 36 Class 63",
+      "lecturer": "Lecturer 63",
+      "groups": [
+        "group_63"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "27": {
+      "id": "158",
+      "subject": "Course 78 Class 158",
+      "lecturer": "Lecturer 158",
+      "groups": [
+        "group_158"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "438",
+      "subject": "Course 194 Class 437",
+      "lecturer": "Lecturer 437",
+      "groups": [
+        "group_437"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "215",
+      "subject": "Course 100 Class 215",
+      "lecturer": "Lecturer 215",
+      "groups": [
+        "group_215"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "312",
+      "subject": "Course 141 Class 312",
+      "lecturer": "Lecturer 312",
+      "groups": [
+        "group_312"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "376",
+      "subject": "Course 167 Class 376",
+      "lecturer": "Lecturer 376",
+      "groups": [
+        "group_376"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "340",
+      "subject": "Course 152 Class 340",
+      "lecturer": "Lecturer 340",
+      "groups": [
+        "group_340"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED2": {
+    "34": {
+      "id": "390",
+      "subject": "Course 170 Class 390",
+      "lecturer": "Lecturer 390",
+      "groups": [
+        "group_390"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "109",
+      "subject": "Course 55 Class 109",
+      "lecturer": "Lecturer 109",
+      "groups": [
+        "group_109"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "124",
+      "subject": "Course 64 Class 124",
+      "lecturer": "Lecturer 124",
+      "groups": [
+        "group_124"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "322",
+      "subject": "Course 148 Class 322",
+      "lecturer": "Lecturer 322",
+      "groups": [
+        "group_322"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "538",
+      "subject": "Course 219 Class 497",
+      "lecturer": "Lecturer 497",
+      "groups": [
+        "group_497"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE9": {
+    "25": {
+      "id": "66",
+      "subject": "Course 39 Class 66",
+      "lecturer": "Lecturer 66",
+      "groups": [
+        "group_66"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "152",
+      "subject": "Course 75 Class 152",
+      "lecturer": "Lecturer 152",
+      "groups": [
+        "group_152"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "289",
+      "subject": "Course 128 Class 289",
+      "lecturer": "Lecturer 289",
+      "groups": [
+        "group_289"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "318",
+      "subject": "Course 146 Class 318",
+      "lecturer": "Lecturer 318",
+      "groups": [
+        "group_318"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "534",
+      "subject": "Course 219 Class 493",
+      "lecturer": "Lecturer 493",
+      "groups": [
+        "group_493"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "343",
+      "subject": "Course 154 Class 343",
+      "lecturer": "Lecturer 343",
+      "groups": [
+        "group_343"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "494",
+      "subject": "Course 202 Class 531",
+      "lecturer": "Lecturer 531",
+      "groups": [
+        "group_531"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "523",
+      "subject": "Course 215 Class 482",
+      "lecturer": "Lecturer 482",
+      "groups": [
+        "group_482"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED8": {
+    "27": {
+      "id": "67",
+      "subject": "Course 39 Class 67",
+      "lecturer": "Lecturer 67",
+      "groups": [
+        "group_67"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "549",
+      "subject": "Course 221 Class 525",
+      "lecturer": "Lecturer 525",
+      "groups": [
+        "group_525"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "537",
+      "subject": "Course 219 Class 496",
+      "lecturer": "Lecturer 496",
+      "groups": [
+        "group_496"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI6": {
+    "25": {
+      "id": "71",
+      "subject": "Course 39 Class 71",
+      "lecturer": "Lecturer 71",
+      "groups": [
+        "group_71"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "228",
+      "subject": "Course 103 Class 228",
+      "lecturer": "Lecturer 228",
+      "groups": [
+        "group_228"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "294",
+      "subject": "Course 130 Class 294",
+      "lecturer": "Lecturer 294",
+      "groups": [
+        "group_294"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "391",
+      "subject": "Course 170 Class 391",
+      "lecturer": "Lecturer 391",
+      "groups": [
+        "group_391"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "420",
+      "subject": "Course 183 Class 420",
+      "lecturer": "Lecturer 420",
+      "groups": [
+        "group_420"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED1": {
+    "5": {
+      "id": "72",
+      "subject": "Course 40 Class 72",
+      "lecturer": "Lecturer 72",
+      "groups": [
+        "group_72"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "91",
+      "subject": "Course 47 Class 91",
+      "lecturer": "Lecturer 91",
+      "groups": [
+        "group_91"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "27": {
+      "id": "104",
+      "subject": "Course 52 Class 104",
+      "lecturer": "Lecturer 104",
+      "groups": [
+        "group_104"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "436",
+      "subject": "Course 194 Class 435",
+      "lecturer": "Lecturer 435",
+      "groups": [
+        "group_435"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "128",
+      "subject": "Course 65 Class 128",
+      "lecturer": "Lecturer 128",
+      "groups": [
+        "group_128"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "225",
+      "subject": "Course 103 Class 225",
+      "lecturer": "Lecturer 225",
+      "groups": [
+        "group_225"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "554",
+      "subject": "Course 222 Class 554",
+      "lecturer": "Lecturer 554",
+      "groups": [
+        "group_554"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU5": {
+    "37": {
+      "id": "440",
+      "subject": "Course 196 Class 439",
+      "lecturer": "Lecturer 439",
+      "groups": [
+        "group_439"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "231",
+      "subject": "Course 103 Class 231",
+      "lecturer": "Lecturer 231",
+      "groups": [
+        "group_231"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "239",
+      "subject": "Course 105 Class 239",
+      "lecturer": "Lecturer 239",
+      "groups": [
+        "group_239"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "302",
+      "subject": "Course 133 Class 302",
+      "lecturer": "Lecturer 302",
+      "groups": [
+        "group_302"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "321",
+      "subject": "Course 148 Class 321",
+      "lecturer": "Lecturer 321",
+      "groups": [
+        "group_321"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "15": {
+      "id": "360",
+      "subject": "Course 163 Class 360",
+      "lecturer": "Lecturer 360",
+      "groups": [
+        "group_360"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "15",
+        "code": "15",
+        "capacity": 80
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU12": {
+    "21": {
+      "id": "80",
+      "subject": "Course 45 Class 80",
+      "lecturer": "Lecturer 80",
+      "groups": [
+        "group_80"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "27": {
+      "id": "106",
+      "subject": "Course 52 Class 106",
+      "lecturer": "Lecturer 106",
+      "groups": [
+        "group_106"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "333",
+      "subject": "Course 150 Class 333",
+      "lecturer": "Lecturer 333",
+      "groups": [
+        "group_333"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "244",
+      "subject": "Course 108 Class 244",
+      "lecturer": "Lecturer 244",
+      "groups": [
+        "group_244"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "454",
+      "subject": "Course 200 Class 509",
+      "lecturer": "Lecturer 509",
+      "groups": [
+        "group_509"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "339",
+      "subject": "Course 151 Class 339",
+      "lecturer": "Lecturer 339",
+      "groups": [
+        "group_339"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "524",
+      "subject": "Course 215 Class 483",
+      "lecturer": "Lecturer 483",
+      "groups": [
+        "group_483"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 12",
+        "code": "12"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED11": {
+    "5": {
+      "id": "450",
+      "subject": "Course 200 Class 449",
+      "lecturer": "Lecturer 449",
+      "groups": [
+        "group_449"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "119",
+      "subject": "Course 59 Class 119",
+      "lecturer": "Lecturer 119",
+      "groups": [
+        "group_119"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "230",
+      "subject": "Course 103 Class 230",
+      "lecturer": "Lecturer 230",
+      "groups": [
+        "group_230"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "515",
+      "subject": "Course 212 Class 474",
+      "lecturer": "Lecturer 474",
+      "groups": [
+        "group_474"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "14": {
+      "id": "276",
+      "subject": "Course 120 Class 276",
+      "lecturer": "Lecturer 276",
+      "groups": [
+        "group_276"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "14",
+        "code": "14",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "320",
+      "subject": "Course 148 Class 320",
+      "lecturer": "Lecturer 320",
+      "groups": [
+        "group_320"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON5": {
+    "21": {
+      "id": "94",
+      "subject": "Course 49 Class 94",
+      "lecturer": "Lecturer 94",
+      "groups": [
+        "group_94"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "102",
+      "subject": "Course 52 Class 102",
+      "lecturer": "Lecturer 102",
+      "groups": [
+        "group_102"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "151",
+      "subject": "Course 75 Class 151",
+      "lecturer": "Lecturer 151",
+      "groups": [
+        "group_151"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "367",
+      "subject": "Course 167 Class 367",
+      "lecturer": "Lecturer 367",
+      "groups": [
+        "group_367"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "342",
+      "subject": "Course 154 Class 342",
+      "lecturer": "Lecturer 342",
+      "groups": [
+        "group_342"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "507",
+      "subject": "Course 210 Class 466",
+      "lecturer": "Lecturer 466",
+      "groups": [
+        "group_466"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED6": {
+    "33": {
+      "id": "98",
+      "subject": "Course 52 Class 98",
+      "lecturer": "Lecturer 98",
+      "groups": [
+        "group_98"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "33",
+        "code": "33",
+        "capacity": 126
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "451",
+      "subject": "Course 200 Class 450",
+      "lecturer": "Lecturer 450",
+      "groups": [
+        "group_450"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "229",
+      "subject": "Course 103 Class 229",
+      "lecturer": "Lecturer 229",
+      "groups": [
+        "group_229"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "371",
+      "subject": "Course 167 Class 371",
+      "lecturer": "Lecturer 371",
+      "groups": [
+        "group_371"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "325",
+      "subject": "Course 149 Class 325",
+      "lecturer": "Lecturer 325",
+      "groups": [
+        "group_325"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "14": {
+      "id": "338",
+      "subject": "Course 151 Class 338",
+      "lecturer": "Lecturer 338",
+      "groups": [
+        "group_338"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "14",
+        "code": "14",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "395",
+      "subject": "Course 170 Class 395",
+      "lecturer": "Lecturer 395",
+      "groups": [
+        "group_395"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU4": {
+    "27": {
+      "id": "99",
+      "subject": "Course 52 Class 99",
+      "lecturer": "Lecturer 99",
+      "groups": [
+        "group_99"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "1": {
+      "id": "192",
+      "subject": "Course 94 Class 192",
+      "lecturer": "Lecturer 192",
+      "groups": [
+        "group_192"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "1",
+        "code": "1",
+        "capacity": 50
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "243",
+      "subject": "Course 107 Class 243",
+      "lecturer": "Lecturer 243",
+      "groups": [
+        "group_243"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "319",
+      "subject": "Course 147 Class 319",
+      "lecturer": "Lecturer 319",
+      "groups": [
+        "group_319"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "4": {
+      "id": "355",
+      "subject": "Course 161 Class 355",
+      "lecturer": "Lecturer 355",
+      "groups": [
+        "group_355"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "4",
+        "code": "4",
+        "capacity": 100
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "460",
+      "subject": "Course 202 Class 452",
+      "lecturer": "Lecturer 452",
+      "groups": [
+        "group_452"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "445",
+      "subject": "Course 199 Class 444",
+      "lecturer": "Lecturer 444",
+      "groups": [
+        "group_444"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 4",
+        "code": "4"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON7": {
+    "21": {
+      "id": "174",
+      "subject": "Course 86 Class 174",
+      "lecturer": "Lecturer 174",
+      "groups": [
+        "group_174"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "144",
+      "subject": "Course 72 Class 144",
+      "lecturer": "Lecturer 144",
+      "groups": [
+        "group_144"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "298",
+      "subject": "Course 131 Class 298",
+      "lecturer": "Lecturer 298",
+      "groups": [
+        "group_298"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "406",
+      "subject": "Course 174 Class 406",
+      "lecturer": "Lecturer 406",
+      "groups": [
+        "group_406"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "THU11": {
+    "25": {
+      "id": "105",
+      "subject": "Course 52 Class 105",
+      "lecturer": "Lecturer 105",
+      "groups": [
+        "group_105"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "452",
+      "subject": "Course 200 Class 499",
+      "lecturer": "Lecturer 499",
+      "groups": [
+        "group_499"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "250",
+      "subject": "Course 110 Class 250",
+      "lecturer": "Lecturer 250",
+      "groups": [
+        "group_250"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "275",
+      "subject": "Course 119 Class 275",
+      "lecturer": "Lecturer 275",
+      "groups": [
+        "group_275"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "328",
+      "subject": "Course 149 Class 328",
+      "lecturer": "Lecturer 328",
+      "groups": [
+        "group_328"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "348",
+      "subject": "Course 156 Class 348",
+      "lecturer": "Lecturer 348",
+      "groups": [
+        "group_348"
+      ],
+      "day": {
+        "name": "THU",
+        "code": "THU"
+      },
+      "period": {
+        "name": "Period 11",
+        "code": "11"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI3": {
+    "7": {
+      "id": "111",
+      "subject": "Course 56 Class 111",
+      "lecturer": "Lecturer 111",
+      "groups": [
+        "group_111"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "279",
+      "subject": "Course 121 Class 279",
+      "lecturer": "Lecturer 279",
+      "groups": [
+        "group_279"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "417",
+      "subject": "Course 181 Class 417",
+      "lecturer": "Lecturer 417",
+      "groups": [
+        "group_417"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "431",
+      "subject": "Course 192 Class 431",
+      "lecturer": "Lecturer 431",
+      "groups": [
+        "group_431"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 3",
+        "code": "3"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI9": {
+    "34": {
+      "id": "493",
+      "subject": "Course 202 Class 530",
+      "lecturer": "Lecturer 530",
+      "groups": [
+        "group_530"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "7": {
+      "id": "143",
+      "subject": "Course 72 Class 143",
+      "lecturer": "Lecturer 143",
+      "groups": [
+        "group_143"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "7",
+        "code": "7",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "492",
+      "subject": "Course 202 Class 529",
+      "lecturer": "Lecturer 529",
+      "groups": [
+        "group_529"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "426",
+      "subject": "Course 187 Class 426",
+      "lecturer": "Lecturer 426",
+      "groups": [
+        "group_426"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "522",
+      "subject": "Course 215 Class 481",
+      "lecturer": "Lecturer 481",
+      "groups": [
+        "group_481"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 9",
+        "code": "9"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI5": {
+    "21": {
+      "id": "148",
+      "subject": "Course 75 Class 148",
+      "lecturer": "Lecturer 148",
+      "groups": [
+        "group_148"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "169",
+      "subject": "Course 84 Class 169",
+      "lecturer": "Lecturer 169",
+      "groups": [
+        "group_169"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "496",
+      "subject": "Course 202 Class 532",
+      "lecturer": "Lecturer 532",
+      "groups": [
+        "group_532"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "514",
+      "subject": "Course 212 Class 473",
+      "lecturer": "Lecturer 473",
+      "groups": [
+        "group_473"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "327",
+      "subject": "Course 149 Class 327",
+      "lecturer": "Lecturer 327",
+      "groups": [
+        "group_327"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "354",
+      "subject": "Course 160 Class 354",
+      "lecturer": "Lecturer 354",
+      "groups": [
+        "group_354"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 5",
+        "code": "5"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI2": {
+    "27": {
+      "id": "159",
+      "subject": "Course 78 Class 159",
+      "lecturer": "Lecturer 159",
+      "groups": [
+        "group_159"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "27",
+        "code": "27",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "509",
+      "subject": "Course 210 Class 468",
+      "lecturer": "Lecturer 468",
+      "groups": [
+        "group_468"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "14": {
+      "id": "362",
+      "subject": "Course 164 Class 362",
+      "lecturer": "Lecturer 362",
+      "groups": [
+        "group_362"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "14",
+        "code": "14",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "458",
+      "subject": "Course 200 Class 512",
+      "lecturer": "Lecturer 512",
+      "groups": [
+        "group_512"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "521",
+      "subject": "Course 214 Class 480",
+      "lecturer": "Lecturer 480",
+      "groups": [
+        "group_480"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "551",
+      "subject": "Course 221 Class 524",
+      "lecturer": "Lecturer 524",
+      "groups": [
+        "group_524"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "18": {
+      "id": "559",
+      "subject": "Course 225 Class 559",
+      "lecturer": "Lecturer 559",
+      "groups": [
+        "group_559"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "18",
+        "code": "18",
+        "capacity": 40
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON6": {
+    "21": {
+      "id": "162",
+      "subject": "Course 80 Class 162",
+      "lecturer": "Lecturer 162",
+      "groups": [
+        "group_162"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "198",
+      "subject": "Course 96 Class 198",
+      "lecturer": "Lecturer 198",
+      "groups": [
+        "group_198"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "379",
+      "subject": "Course 167 Class 379",
+      "lecturer": "Lecturer 379",
+      "groups": [
+        "group_379"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "475",
+      "subject": "Course 202 Class 538",
+      "lecturer": "Lecturer 538",
+      "groups": [
+        "group_538"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 6",
+        "code": "6"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "TUE8": {
+    "21": {
+      "id": "163",
+      "subject": "Course 81 Class 163",
+      "lecturer": "Lecturer 163",
+      "groups": [
+        "group_163"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "271",
+      "subject": "Course 117 Class 271",
+      "lecturer": "Lecturer 271",
+      "groups": [
+        "group_271"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "539",
+      "subject": "Course 219 Class 515",
+      "lecturer": "Lecturer 515",
+      "groups": [
+        "group_515"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "472",
+      "subject": "Course 202 Class 518",
+      "lecturer": "Lecturer 518",
+      "groups": [
+        "group_518"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "464",
+      "subject": "Course 202 Class 456",
+      "lecturer": "Lecturer 456",
+      "groups": [
+        "group_456"
+      ],
+      "day": {
+        "name": "TUE",
+        "code": "TUE"
+      },
+      "period": {
+        "name": "Period 8",
+        "code": "8"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON10": {
+    "34": {
+      "id": "414",
+      "subject": "Course 179 Class 414",
+      "lecturer": "Lecturer 414",
+      "groups": [
+        "group_414"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "479",
+      "subject": "Course 202 Class 542",
+      "lecturer": "Lecturer 542",
+      "groups": [
+        "group_542"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "219",
+      "subject": "Course 101 Class 219",
+      "lecturer": "Lecturer 219",
+      "groups": [
+        "group_219"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "290",
+      "subject": "Course 128 Class 290",
+      "lecturer": "Lecturer 290",
+      "groups": [
+        "group_290"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "375",
+      "subject": "Course 167 Class 375",
+      "lecturer": "Lecturer 375",
+      "groups": [
+        "group_375"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 10",
+        "code": "10"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "MON2": {
+    "34": {
+      "id": "285",
+      "subject": "Course 126 Class 285",
+      "lecturer": "Lecturer 285",
+      "groups": [
+        "group_285"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "25": {
+      "id": "270",
+      "subject": "Course 117 Class 270",
+      "lecturer": "Lecturer 270",
+      "groups": [
+        "group_270"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "25",
+        "code": "25",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "272",
+      "subject": "Course 118 Class 272",
+      "lecturer": "Lecturer 272",
+      "groups": [
+        "group_272"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "553",
+      "subject": "Course 221 Class 527",
+      "lecturer": "Lecturer 527",
+      "groups": [
+        "group_527"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "483",
+      "subject": "Course 202 Class 546",
+      "lecturer": "Lecturer 546",
+      "groups": [
+        "group_546"
+      ],
+      "day": {
+        "name": "MON",
+        "code": "MON"
+      },
+      "period": {
+        "name": "Period 2",
+        "code": "2"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    }
+  },
+  "WED7": {
+    "37": {
+      "id": "351",
+      "subject": "Course 157 Class 351",
+      "lecturer": "Lecturer 351",
+      "groups": [
+        "group_351"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "235",
+      "subject": "Course 103 Class 235",
+      "lecturer": "Lecturer 235",
+      "groups": [
+        "group_235"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "463",
+      "subject": "Course 202 Class 455",
+      "lecturer": "Lecturer 455",
+      "groups": [
+        "group_455"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "35": {
+      "id": "341",
+      "subject": "Course 153 Class 341",
+      "lecturer": "Lecturer 341",
+      "groups": [
+        "group_341"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "35",
+        "code": "35",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "34": {
+      "id": "457",
+      "subject": "Course 200 Class 501",
+      "lecturer": "Lecturer 501",
+      "groups": [
+        "group_501"
+      ],
+      "day": {
+        "name": "WED",
+        "code": "WED"
+      },
+      "period": {
+        "name": "Period 7",
+        "code": "7"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    }
+  },
+  "FRI1": {
+    "34": {
+      "id": "204",
+      "subject": "Course 97 Class 204",
+      "lecturer": "Lecturer 204",
+      "groups": [
+        "group_204"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "34",
+        "code": "34",
+        "capacity": 25
+      },
+      "algorithm": "ga"
+    },
+    "37": {
+      "id": "205",
+      "subject": "Course 97 Class 205",
+      "lecturer": "Lecturer 205",
+      "groups": [
+        "group_205"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "37",
+        "code": "37",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "5": {
+      "id": "255",
+      "subject": "Course 111 Class 255",
+      "lecturer": "Lecturer 255",
+      "groups": [
+        "group_255"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "5",
+        "code": "5",
+        "capacity": 20
+      },
+      "algorithm": "ga"
+    },
+    "21": {
+      "id": "526",
+      "subject": "Course 216 Class 485",
+      "lecturer": "Lecturer 485",
+      "groups": [
+        "group_485"
+      ],
+      "day": {
+        "name": "FRI",
+        "code": "FRI"
+      },
+      "period": {
+        "name": "Period 1",
+        "code": "1"
+      },
+      "room": {
+        "name": "21",
+        "code": "21",
+        "capacity": 30
+      },
+      "algorithm": "ga"
+    }
+  }
+}
