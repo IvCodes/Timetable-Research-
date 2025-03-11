@@ -1,3 +1,15 @@
-.venv 
 *.pyc
-__pycache__
+*.pyo
+*.pyd
+__pycache__/
+
+
+venv/
+.venv/
+env/
+
+
+logs/
+*.log
+*.tmp
+
