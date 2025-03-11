@@ -1,0 +1,2480 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>UniTime GA Results Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #2c3e50; }
+            table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+            th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+            th { background-color: #f8f9fa; }
+            .stats { background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0; }
+            .constraint { color: #e74c3c; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>UniTime Genetic Algorithm Results</h1>
+        <h2>Configuration & Parameters</h2>
+        <ul>
+            <li><strong>Population Size:</strong> 100</li>
+            <li><strong>Generations:</strong> 50</li>
+            <li><strong>Crossover Probability:</strong> 0.8</li>
+            <li><strong>Mutation Probability:</strong> 0.2</li>
+            <li><strong>Dataset:</strong> ../Advance-Timetable-Scheduling-Backend/Data/munifspsspr17.json</li>
+        </ul>
+        <div class="stats">
+            <h2>Final Statistics</h2>
+            <p><strong>Total Assignments:</strong> 561</p>
+            <p><strong>Room Constraint Violations:</strong> <span class="constraint">291.0</span></p>
+            <p><strong>Time Constraint Violations:</strong> <span class="constraint">8.0</span></p>
+            <p><strong>Student Constraint Violations:</strong> <span class="constraint">36.0</span></p>
+            <p><strong>Best Fitness Score:</strong> (291.0, 8.0, 36.0, 0.0)</p>
+        </div>
+        <h2>Convergence Plot</h2>
+        <img src="convergence_plot.png" alt="Convergence Plot" style="max-width:100%; height:auto;">
+        <h2>Timetable</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Period</th>
+                <th>Room</th>
+                <th>Activity</th>
+                <th>Lecturer</th>
+                <th>Groups</th>
+            </tr>
+    
+            <tr>
+                <td>WED</td>
+                <td>Period 3</td>
+                <td>37</td>
+                <td>Course 202 Class 547</td>
+                <td>Lecturer 547</td>
+                <td>group_547</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 3</td>
+                <td>21</td>
+                <td>Course 75 Class 152</td>
+                <td>Lecturer 152</td>
+                <td>group_152</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 3</td>
+                <td>34</td>
+                <td>Course 149 Class 324</td>
+                <td>Lecturer 324</td>
+                <td>group_324</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 3</td>
+                <td>5</td>
+                <td>Course 98 Class 210</td>
+                <td>Lecturer 210</td>
+                <td>group_210</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 3</td>
+                <td>25</td>
+                <td>Course 84 Class 167</td>
+                <td>Lecturer 167</td>
+                <td>group_167</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 3</td>
+                <td>35</td>
+                <td>Course 212 Class 473</td>
+                <td>Lecturer 473</td>
+                <td>group_473</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 3</td>
+                <td>6</td>
+                <td>Course 207 Class 463</td>
+                <td>Lecturer 463</td>
+                <td>group_463</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 3</td>
+                <td>10</td>
+                <td>Course 14 Class 25</td>
+                <td>Lecturer 25</td>
+                <td>group_25</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 4</td>
+                <td>37</td>
+                <td>Course 121 Class 279</td>
+                <td>Lecturer 279</td>
+                <td>group_279</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 4</td>
+                <td>21</td>
+                <td>Course 16 Class 29</td>
+                <td>Lecturer 29</td>
+                <td>group_29</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 4</td>
+                <td>34</td>
+                <td>Course 32 Class 52</td>
+                <td>Lecturer 52</td>
+                <td>group_52</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 4</td>
+                <td>25</td>
+                <td>Course 30 Class 50</td>
+                <td>Lecturer 50</td>
+                <td>group_50</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 4</td>
+                <td>5</td>
+                <td>Course 11 Class 17</td>
+                <td>Lecturer 17</td>
+                <td>group_17</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 4</td>
+                <td>15</td>
+                <td>Course 15 Class 26</td>
+                <td>Lecturer 26</td>
+                <td>group_26</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 1</td>
+                <td>34</td>
+                <td>Course 181 Class 417</td>
+                <td>Lecturer 417</td>
+                <td>group_417</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 1</td>
+                <td>5</td>
+                <td>Course 165 Class 363</td>
+                <td>Lecturer 363</td>
+                <td>group_363</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 1</td>
+                <td>37</td>
+                <td>Course 221 Class 525</td>
+                <td>Lecturer 525</td>
+                <td>group_525</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 1</td>
+                <td>7</td>
+                <td>Course 119 Class 273</td>
+                <td>Lecturer 273</td>
+                <td>group_273</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 1</td>
+                <td>6</td>
+                <td>Course 204 Class 460</td>
+                <td>Lecturer 460</td>
+                <td>group_460</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 1</td>
+                <td>27</td>
+                <td>Course 25 Class 44</td>
+                <td>Lecturer 44</td>
+                <td>group_44</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 12</td>
+                <td>21</td>
+                <td>Course 107 Class 242</td>
+                <td>Lecturer 242</td>
+                <td>group_242</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 12</td>
+                <td>14</td>
+                <td>Course 164 Class 361</td>
+                <td>Lecturer 361</td>
+                <td>group_361</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 12</td>
+                <td>35</td>
+                <td>Course 130 Class 295</td>
+                <td>Lecturer 295</td>
+                <td>group_295</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 12</td>
+                <td>4</td>
+                <td>Course 204 Class 460</td>
+                <td>Lecturer 460</td>
+                <td>group_460</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 12</td>
+                <td>5</td>
+                <td>Course 67 Class 130</td>
+                <td>Lecturer 130</td>
+                <td>group_130</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 12</td>
+                <td>7</td>
+                <td>Course 166 Class 365</td>
+                <td>Lecturer 365</td>
+                <td>group_365</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 12</td>
+                <td>34</td>
+                <td>Course 176 Class 408</td>
+                <td>Lecturer 408</td>
+                <td>group_408</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 12</td>
+                <td>37</td>
+                <td>Course 185 Class 423</td>
+                <td>Lecturer 423</td>
+                <td>group_423</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 12</td>
+                <td>33</td>
+                <td>Course 46 Class 81</td>
+                <td>Lecturer 81</td>
+                <td>group_81</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 11</td>
+                <td>34</td>
+                <td>Course 185 Class 423</td>
+                <td>Lecturer 423</td>
+                <td>group_423</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 11</td>
+                <td>25</td>
+                <td>Course 52 Class 99</td>
+                <td>Lecturer 99</td>
+                <td>group_99</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 11</td>
+                <td>5</td>
+                <td>Course 1 Class 2</td>
+                <td>Lecturer 2</td>
+                <td>group_2</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 11</td>
+                <td>4</td>
+                <td>Course 207 Class 463</td>
+                <td>Lecturer 463</td>
+                <td>group_463</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 11</td>
+                <td>37</td>
+                <td>Course 211 Class 469</td>
+                <td>Lecturer 469</td>
+                <td>group_469</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 11</td>
+                <td>35</td>
+                <td>Course 45 Class 80</td>
+                <td>Lecturer 80</td>
+                <td>group_80</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 11</td>
+                <td>21</td>
+                <td>Course 149 Class 325</td>
+                <td>Lecturer 325</td>
+                <td>group_325</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 11</td>
+                <td>18</td>
+                <td>Course 17 Class 32</td>
+                <td>Lecturer 32</td>
+                <td>group_32</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 5</td>
+                <td>37</td>
+                <td>Course 179 Class 413</td>
+                <td>Lecturer 413</td>
+                <td>group_413</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 5</td>
+                <td>35</td>
+                <td>Course 90 Class 183</td>
+                <td>Lecturer 183</td>
+                <td>group_183</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 5</td>
+                <td>34</td>
+                <td>Course 226 Class 561</td>
+                <td>Lecturer 561</td>
+                <td>group_561</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 5</td>
+                <td>5</td>
+                <td>Course 196 Class 439</td>
+                <td>Lecturer 439</td>
+                <td>group_439</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 5</td>
+                <td>27</td>
+                <td>Course 30 Class 50</td>
+                <td>Lecturer 50</td>
+                <td>group_50</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 5</td>
+                <td>21</td>
+                <td>Course 215 Class 482</td>
+                <td>Lecturer 482</td>
+                <td>group_482</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 11</td>
+                <td>37</td>
+                <td>Course 32 Class 53</td>
+                <td>Lecturer 53</td>
+                <td>group_53</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 11</td>
+                <td>4</td>
+                <td>Course 130 Class 294</td>
+                <td>Lecturer 294</td>
+                <td>group_294</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 11</td>
+                <td>34</td>
+                <td>Course 216 Class 487</td>
+                <td>Lecturer 487</td>
+                <td>group_487</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 11</td>
+                <td>5</td>
+                <td>Course 202 Class 510</td>
+                <td>Lecturer 510</td>
+                <td>group_510</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 11</td>
+                <td>35</td>
+                <td>Course 16 Class 28</td>
+                <td>Lecturer 28</td>
+                <td>group_28</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 11</td>
+                <td>6</td>
+                <td>Course 72 Class 141</td>
+                <td>Lecturer 141</td>
+                <td>group_141</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 11</td>
+                <td>10</td>
+                <td>Course 75 Class 147</td>
+                <td>Lecturer 147</td>
+                <td>group_147</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 11</td>
+                <td>18</td>
+                <td>Course 129 Class 292</td>
+                <td>Lecturer 292</td>
+                <td>group_292</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 11</td>
+                <td>14</td>
+                <td>Course 223 Class 556</td>
+                <td>Lecturer 556</td>
+                <td>group_556</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 12</td>
+                <td>5</td>
+                <td>Course 97 Class 205</td>
+                <td>Lecturer 205</td>
+                <td>group_205</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 12</td>
+                <td>35</td>
+                <td>Course 45 Class 80</td>
+                <td>Lecturer 80</td>
+                <td>group_80</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 12</td>
+                <td>10</td>
+                <td>Course 16 Class 27</td>
+                <td>Lecturer 27</td>
+                <td>group_27</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 12</td>
+                <td>18</td>
+                <td>Course 72 Class 144</td>
+                <td>Lecturer 144</td>
+                <td>group_144</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 12</td>
+                <td>37</td>
+                <td>Course 67 Class 130</td>
+                <td>Lecturer 130</td>
+                <td>group_130</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 12</td>
+                <td>34</td>
+                <td>Course 219 Class 496</td>
+                <td>Lecturer 496</td>
+                <td>group_496</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 11</td>
+                <td>33</td>
+                <td>Course 46 Class 81</td>
+                <td>Lecturer 81</td>
+                <td>group_81</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 11</td>
+                <td>5</td>
+                <td>Course 167 Class 367</td>
+                <td>Lecturer 367</td>
+                <td>group_367</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 11</td>
+                <td>35</td>
+                <td>Course 83 Class 166</td>
+                <td>Lecturer 166</td>
+                <td>group_166</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 11</td>
+                <td>14</td>
+                <td>Course 129 Class 293</td>
+                <td>Lecturer 293</td>
+                <td>group_293</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 11</td>
+                <td>34</td>
+                <td>Course 210 Class 467</td>
+                <td>Lecturer 467</td>
+                <td>group_467</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 11</td>
+                <td>4</td>
+                <td>Course 14 Class 25</td>
+                <td>Lecturer 25</td>
+                <td>group_25</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 11</td>
+                <td>18</td>
+                <td>Course 157 Class 349</td>
+                <td>Lecturer 349</td>
+                <td>group_349</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 11</td>
+                <td>21</td>
+                <td>Course 87 Class 176</td>
+                <td>Lecturer 176</td>
+                <td>group_176</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 7</td>
+                <td>34</td>
+                <td>Course 167 Class 377</td>
+                <td>Lecturer 377</td>
+                <td>group_377</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 7</td>
+                <td>7</td>
+                <td>Course 72 Class 142</td>
+                <td>Lecturer 142</td>
+                <td>group_142</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 7</td>
+                <td>5</td>
+                <td>Course 167 Class 375</td>
+                <td>Lecturer 375</td>
+                <td>group_375</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 7</td>
+                <td>37</td>
+                <td>Course 167 Class 378</td>
+                <td>Lecturer 378</td>
+                <td>group_378</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 7</td>
+                <td>21</td>
+                <td>Course 117 Class 268</td>
+                <td>Lecturer 268</td>
+                <td>group_268</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 10</td>
+                <td>14</td>
+                <td>Course 19 Class 34</td>
+                <td>Lecturer 34</td>
+                <td>group_34</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 10</td>
+                <td>5</td>
+                <td>Course 111 Class 253</td>
+                <td>Lecturer 253</td>
+                <td>group_253</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 10</td>
+                <td>4</td>
+                <td>Course 207 Class 463</td>
+                <td>Lecturer 463</td>
+                <td>group_463</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 10</td>
+                <td>34</td>
+                <td>Course 202 Class 532</td>
+                <td>Lecturer 532</td>
+                <td>group_532</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 10</td>
+                <td>37</td>
+                <td>Course 28 Class 47</td>
+                <td>Lecturer 47</td>
+                <td>group_47</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 10</td>
+                <td>21</td>
+                <td>Course 130 Class 297</td>
+                <td>Lecturer 297</td>
+                <td>group_297</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 10</td>
+                <td>6</td>
+                <td>Course 208 Class 464</td>
+                <td>Lecturer 464</td>
+                <td>group_464</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 10</td>
+                <td>18</td>
+                <td>Course 129 Class 292</td>
+                <td>Lecturer 292</td>
+                <td>group_292</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 5</td>
+                <td>35</td>
+                <td>Course 215 Class 484</td>
+                <td>Lecturer 484</td>
+                <td>group_484</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 5</td>
+                <td>5</td>
+                <td>Course 196 Class 439</td>
+                <td>Lecturer 439</td>
+                <td>group_439</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 5</td>
+                <td>37</td>
+                <td>Course 35 Class 60</td>
+                <td>Lecturer 60</td>
+                <td>group_60</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 5</td>
+                <td>34</td>
+                <td>Course 103 Class 232</td>
+                <td>Lecturer 232</td>
+                <td>group_232</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 5</td>
+                <td>21</td>
+                <td>Course 78 Class 159</td>
+                <td>Lecturer 159</td>
+                <td>group_159</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 8</td>
+                <td>35</td>
+                <td>Course 153 Class 341</td>
+                <td>Lecturer 341</td>
+                <td>group_341</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 8</td>
+                <td>5</td>
+                <td>Course 144 Class 315</td>
+                <td>Lecturer 315</td>
+                <td>group_315</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 8</td>
+                <td>37</td>
+                <td>Course 127 Class 288</td>
+                <td>Lecturer 288</td>
+                <td>group_288</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 8</td>
+                <td>34</td>
+                <td>Course 221 Class 524</td>
+                <td>Lecturer 524</td>
+                <td>group_524</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 3</td>
+                <td>34</td>
+                <td>Course 213 Class 476</td>
+                <td>Lecturer 476</td>
+                <td>group_476</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 3</td>
+                <td>25</td>
+                <td>Course 30 Class 49</td>
+                <td>Lecturer 49</td>
+                <td>group_49</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 3</td>
+                <td>37</td>
+                <td>Course 202 Class 535</td>
+                <td>Lecturer 535</td>
+                <td>group_535</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 3</td>
+                <td>5</td>
+                <td>Course 167 Class 375</td>
+                <td>Lecturer 375</td>
+                <td>group_375</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 3</td>
+                <td>21</td>
+                <td>Course 149 Class 328</td>
+                <td>Lecturer 328</td>
+                <td>group_328</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 8</td>
+                <td>35</td>
+                <td>Course 212 Class 474</td>
+                <td>Lecturer 474</td>
+                <td>group_474</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 8</td>
+                <td>10</td>
+                <td>Course 14 Class 25</td>
+                <td>Lecturer 25</td>
+                <td>group_25</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 8</td>
+                <td>21</td>
+                <td>Course 101 Class 221</td>
+                <td>Lecturer 221</td>
+                <td>group_221</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 8</td>
+                <td>27</td>
+                <td>Course 65 Class 127</td>
+                <td>Lecturer 127</td>
+                <td>group_127</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 8</td>
+                <td>34</td>
+                <td>Course 211 Class 471</td>
+                <td>Lecturer 471</td>
+                <td>group_471</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 8</td>
+                <td>37</td>
+                <td>Course 97 Class 202</td>
+                <td>Lecturer 202</td>
+                <td>group_202</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 8</td>
+                <td>5</td>
+                <td>Course 63 Class 123</td>
+                <td>Lecturer 123</td>
+                <td>group_123</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 8</td>
+                <td>37</td>
+                <td>Course 193 Class 432</td>
+                <td>Lecturer 432</td>
+                <td>group_432</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 8</td>
+                <td>5</td>
+                <td>Course 210 Class 468</td>
+                <td>Lecturer 468</td>
+                <td>group_468</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 8</td>
+                <td>34</td>
+                <td>Course 70 Class 138</td>
+                <td>Lecturer 138</td>
+                <td>group_138</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 8</td>
+                <td>6</td>
+                <td>Course 206 Class 462</td>
+                <td>Lecturer 462</td>
+                <td>group_462</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 8</td>
+                <td>25</td>
+                <td>Course 117 Class 271</td>
+                <td>Lecturer 271</td>
+                <td>group_271</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 8</td>
+                <td>21</td>
+                <td>Course 95 Class 195</td>
+                <td>Lecturer 195</td>
+                <td>group_195</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 10</td>
+                <td>37</td>
+                <td>Course 88 Class 179</td>
+                <td>Lecturer 179</td>
+                <td>group_179</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 10</td>
+                <td>34</td>
+                <td>Course 186 Class 424</td>
+                <td>Lecturer 424</td>
+                <td>group_424</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 10</td>
+                <td>6</td>
+                <td>Course 130 Class 294</td>
+                <td>Lecturer 294</td>
+                <td>group_294</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 10</td>
+                <td>35</td>
+                <td>Course 156 Class 347</td>
+                <td>Lecturer 347</td>
+                <td>group_347</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 10</td>
+                <td>5</td>
+                <td>Course 168 Class 385</td>
+                <td>Lecturer 385</td>
+                <td>group_385</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 10</td>
+                <td>21</td>
+                <td>Course 49 Class 95</td>
+                <td>Lecturer 95</td>
+                <td>group_95</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 10</td>
+                <td>14</td>
+                <td>Course 69 Class 136</td>
+                <td>Lecturer 136</td>
+                <td>group_136</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 2</td>
+                <td>21</td>
+                <td>Course 66 Class 129</td>
+                <td>Lecturer 129</td>
+                <td>group_129</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 2</td>
+                <td>37</td>
+                <td>Course 98 Class 208</td>
+                <td>Lecturer 208</td>
+                <td>group_208</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 2</td>
+                <td>5</td>
+                <td>Course 148 Class 321</td>
+                <td>Lecturer 321</td>
+                <td>group_321</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 2</td>
+                <td>35</td>
+                <td>Course 156 Class 346</td>
+                <td>Lecturer 346</td>
+                <td>group_346</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 2</td>
+                <td>25</td>
+                <td>Course 48 Class 93</td>
+                <td>Lecturer 93</td>
+                <td>group_93</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 1</td>
+                <td>34</td>
+                <td>Course 156 Class 348</td>
+                <td>Lecturer 348</td>
+                <td>group_348</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 1</td>
+                <td>5</td>
+                <td>Course 168 Class 384</td>
+                <td>Lecturer 384</td>
+                <td>group_384</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 1</td>
+                <td>21</td>
+                <td>Course 30 Class 49</td>
+                <td>Lecturer 49</td>
+                <td>group_49</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 1</td>
+                <td>27</td>
+                <td>Course 65 Class 128</td>
+                <td>Lecturer 128</td>
+                <td>group_128</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 1</td>
+                <td>25</td>
+                <td>Course 31 Class 51</td>
+                <td>Lecturer 51</td>
+                <td>group_51</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 1</td>
+                <td>37</td>
+                <td>Course 110 Class 247</td>
+                <td>Lecturer 247</td>
+                <td>group_247</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 1</td>
+                <td>10</td>
+                <td>Course 206 Class 462</td>
+                <td>Lecturer 462</td>
+                <td>group_462</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 11</td>
+                <td>34</td>
+                <td>Course 169 Class 388</td>
+                <td>Lecturer 388</td>
+                <td>group_388</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 11</td>
+                <td>25</td>
+                <td>Course 21 Class 38</td>
+                <td>Lecturer 38</td>
+                <td>group_38</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 11</td>
+                <td>37</td>
+                <td>Course 219 Class 492</td>
+                <td>Lecturer 492</td>
+                <td>group_492</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 11</td>
+                <td>14</td>
+                <td>Course 225 Class 559</td>
+                <td>Lecturer 559</td>
+                <td>group_559</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 11</td>
+                <td>21</td>
+                <td>Course 103 Class 236</td>
+                <td>Lecturer 236</td>
+                <td>group_236</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 11</td>
+                <td>5</td>
+                <td>Course 185 Class 423</td>
+                <td>Lecturer 423</td>
+                <td>group_423</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 11</td>
+                <td>18</td>
+                <td>Course 19 Class 34</td>
+                <td>Lecturer 34</td>
+                <td>group_34</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 11</td>
+                <td>6</td>
+                <td>Course 14 Class 25</td>
+                <td>Lecturer 25</td>
+                <td>group_25</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 11</td>
+                <td>10</td>
+                <td>Course 209 Class 465</td>
+                <td>Lecturer 465</td>
+                <td>group_465</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 10</td>
+                <td>5</td>
+                <td>Course 116 Class 266</td>
+                <td>Lecturer 266</td>
+                <td>group_266</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 10</td>
+                <td>35</td>
+                <td>Course 81 Class 163</td>
+                <td>Lecturer 163</td>
+                <td>group_163</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 10</td>
+                <td>34</td>
+                <td>Course 199 Class 444</td>
+                <td>Lecturer 444</td>
+                <td>group_444</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 10</td>
+                <td>21</td>
+                <td>Course 95 Class 195</td>
+                <td>Lecturer 195</td>
+                <td>group_195</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 10</td>
+                <td>15</td>
+                <td>Course 151 Class 337</td>
+                <td>Lecturer 337</td>
+                <td>group_337</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 10</td>
+                <td>37</td>
+                <td>Course 210 Class 466</td>
+                <td>Lecturer 466</td>
+                <td>group_466</td>
+            </tr>
+            
+            <tr>
+                <td>FRI</td>
+                <td>Period 10</td>
+                <td>4</td>
+                <td>Course 219 Class 494</td>
+                <td>Lecturer 494</td>
+                <td>group_494</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 2</td>
+                <td>27</td>
+                <td>Course 117 Class 269</td>
+                <td>Lecturer 269</td>
+                <td>group_269</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 2</td>
+                <td>37</td>
+                <td>Course 77 Class 157</td>
+                <td>Lecturer 157</td>
+                <td>group_157</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 2</td>
+                <td>34</td>
+                <td>Course 167 Class 381</td>
+                <td>Lecturer 381</td>
+                <td>group_381</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 2</td>
+                <td>35</td>
+                <td>Course 86 Class 172</td>
+                <td>Lecturer 172</td>
+                <td>group_172</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 2</td>
+                <td>5</td>
+                <td>Course 175 Class 407</td>
+                <td>Lecturer 407</td>
+                <td>group_407</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 2</td>
+                <td>6</td>
+                <td>Course 209 Class 465</td>
+                <td>Lecturer 465</td>
+                <td>group_465</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 2</td>
+                <td>21</td>
+                <td>Course 216 Class 485</td>
+                <td>Lecturer 485</td>
+                <td>group_485</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 10</td>
+                <td>5</td>
+                <td>Course 221 Class 522</td>
+                <td>Lecturer 522</td>
+                <td>group_522</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 10</td>
+                <td>37</td>
+                <td>Course 167 Class 377</td>
+                <td>Lecturer 377</td>
+                <td>group_377</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 10</td>
+                <td>18</td>
+                <td>Course 225 Class 559</td>
+                <td>Lecturer 559</td>
+                <td>group_559</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 10</td>
+                <td>34</td>
+                <td>Course 47 Class 90</td>
+                <td>Lecturer 90</td>
+                <td>group_90</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 10</td>
+                <td>25</td>
+                <td>Course 224 Class 558</td>
+                <td>Lecturer 558</td>
+                <td>group_558</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 10</td>
+                <td>4</td>
+                <td>Course 101 Class 217</td>
+                <td>Lecturer 217</td>
+                <td>group_217</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 10</td>
+                <td>15</td>
+                <td>Course 151 Class 337</td>
+                <td>Lecturer 337</td>
+                <td>group_337</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 10</td>
+                <td>21</td>
+                <td>Course 152 Class 340</td>
+                <td>Lecturer 340</td>
+                <td>group_340</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 12</td>
+                <td>21</td>
+                <td>Course 52 Class 106</td>
+                <td>Lecturer 106</td>
+                <td>group_106</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 12</td>
+                <td>27</td>
+                <td>Course 25 Class 44</td>
+                <td>Lecturer 44</td>
+                <td>group_44</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 12</td>
+                <td>34</td>
+                <td>Course 202 Class 529</td>
+                <td>Lecturer 529</td>
+                <td>group_529</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 12</td>
+                <td>35</td>
+                <td>Course 87 Class 177</td>
+                <td>Lecturer 177</td>
+                <td>group_177</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 12</td>
+                <td>4</td>
+                <td>Course 204 Class 460</td>
+                <td>Lecturer 460</td>
+                <td>group_460</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 12</td>
+                <td>37</td>
+                <td>Course 110 Class 251</td>
+                <td>Lecturer 251</td>
+                <td>group_251</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 12</td>
+                <td>14</td>
+                <td>Course 56 Class 111</td>
+                <td>Lecturer 111</td>
+                <td>group_111</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 12</td>
+                <td>6</td>
+                <td>Course 206 Class 462</td>
+                <td>Lecturer 462</td>
+                <td>group_462</td>
+            </tr>
+            
+            <tr>
+                <td>MON</td>
+                <td>Period 12</td>
+                <td>5</td>
+                <td>Course 29 Class 48</td>
+                <td>Lecturer 48</td>
+                <td>group_48</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 10</td>
+                <td>34</td>
+                <td>Course 116 Class 265</td>
+                <td>Lecturer 265</td>
+                <td>group_265</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 10</td>
+                <td>5</td>
+                <td>Course 219 Class 497</td>
+                <td>Lecturer 497</td>
+                <td>group_497</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 10</td>
+                <td>37</td>
+                <td>Course 179 Class 414</td>
+                <td>Lecturer 414</td>
+                <td>group_414</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 10</td>
+                <td>25</td>
+                <td>Course 52 Class 101</td>
+                <td>Lecturer 101</td>
+                <td>group_101</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 10</td>
+                <td>21</td>
+                <td>Course 103 Class 225</td>
+                <td>Lecturer 225</td>
+                <td>group_225</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 10</td>
+                <td>27</td>
+                <td>Course 39 Class 66</td>
+                <td>Lecturer 66</td>
+                <td>group_66</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 9</td>
+                <td>37</td>
+                <td>Course 46 Class 83</td>
+                <td>Lecturer 83</td>
+                <td>group_83</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 9</td>
+                <td>35</td>
+                <td>Course 107 Class 243</td>
+                <td>Lecturer 243</td>
+                <td>group_243</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 9</td>
+                <td>34</td>
+                <td>Course 97 Class 204</td>
+                <td>Lecturer 204</td>
+                <td>group_204</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 9</td>
+                <td>5</td>
+                <td>Course 127 Class 288</td>
+                <td>Lecturer 288</td>
+                <td>group_288</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 6</td>
+                <td>5</td>
+                <td>Course 221 Class 523</td>
+                <td>Lecturer 523</td>
+                <td>group_523</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 6</td>
+                <td>37</td>
+                <td>Course 157 Class 350</td>
+                <td>Lecturer 350</td>
+                <td>group_350</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 6</td>
+                <td>25</td>
+                <td>Course 39 Class 71</td>
+                <td>Lecturer 71</td>
+                <td>group_71</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 6</td>
+                <td>34</td>
+                <td>Course 220 Class 519</td>
+                <td>Lecturer 519</td>
+                <td>group_519</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 6</td>
+                <td>21</td>
+                <td>Course 114 Class 262</td>
+                <td>Lecturer 262</td>
+                <td>group_262</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 6</td>
+                <td>6</td>
+                <td>Course 219 Class 494</td>
+                <td>Lecturer 494</td>
+                <td>group_494</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 12</td>
+                <td>14</td>
+                <td>Course 17 Class 32</td>
+                <td>Lecturer 32</td>
+                <td>group_32</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 12</td>
+                <td>18</td>
+                <td>Course 76 Class 153</td>
+                <td>Lecturer 153</td>
+                <td>group_153</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 12</td>
+                <td>5</td>
+                <td>Course 77 Class 156</td>
+                <td>Lecturer 156</td>
+                <td>group_156</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 12</td>
+                <td>35</td>
+                <td>Course 149 Class 326</td>
+                <td>Lecturer 326</td>
+                <td>group_326</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 12</td>
+                <td>37</td>
+                <td>Course 26 Class 45</td>
+                <td>Lecturer 45</td>
+                <td>group_45</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 12</td>
+                <td>34</td>
+                <td>Course 197 Class 440</td>
+                <td>Lecturer 440</td>
+                <td>group_440</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 3</td>
+                <td>21</td>
+                <td>Course 52 Class 100</td>
+                <td>Lecturer 100</td>
+                <td>group_100</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 3</td>
+                <td>5</td>
+                <td>Course 221 Class 524</td>
+                <td>Lecturer 524</td>
+                <td>group_524</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 3</td>
+                <td>7</td>
+                <td>Course 129 Class 293</td>
+                <td>Lecturer 293</td>
+                <td>group_293</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 3</td>
+                <td>35</td>
+                <td>Course 161 Class 356</td>
+                <td>Lecturer 356</td>
+                <td>group_356</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 3</td>
+                <td>37</td>
+                <td>Course 126 Class 285</td>
+                <td>Lecturer 285</td>
+                <td>group_285</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 3</td>
+                <td>34</td>
+                <td>Course 211 Class 471</td>
+                <td>Lecturer 471</td>
+                <td>group_471</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 11</td>
+                <td>37</td>
+                <td>Course 217 Class 488</td>
+                <td>Lecturer 488</td>
+                <td>group_488</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 11</td>
+                <td>35</td>
+                <td>Course 161 Class 358</td>
+                <td>Lecturer 358</td>
+                <td>group_358</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 11</td>
+                <td>5</td>
+                <td>Course 221 Class 520</td>
+                <td>Lecturer 520</td>
+                <td>group_520</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 11</td>
+                <td>14</td>
+                <td>Course 166 Class 366</td>
+                <td>Lecturer 366</td>
+                <td>group_366</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 11</td>
+                <td>34</td>
+                <td>Course 167 Class 369</td>
+                <td>Lecturer 369</td>
+                <td>group_369</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 11</td>
+                <td>21</td>
+                <td>Course 103 Class 225</td>
+                <td>Lecturer 225</td>
+                <td>group_225</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 7</td>
+                <td>37</td>
+                <td>Course 201 Class 451</td>
+                <td>Lecturer 451</td>
+                <td>group_451</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 7</td>
+                <td>5</td>
+                <td>Course 219 Class 492</td>
+                <td>Lecturer 492</td>
+                <td>group_492</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 7</td>
+                <td>7</td>
+                <td>Course 166 Class 366</td>
+                <td>Lecturer 366</td>
+                <td>group_366</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 7</td>
+                <td>25</td>
+                <td>Course 78 Class 158</td>
+                <td>Lecturer 158</td>
+                <td>group_158</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 7</td>
+                <td>34</td>
+                <td>Course 202 Class 551</td>
+                <td>Lecturer 551</td>
+                <td>group_551</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 7</td>
+                <td>21</td>
+                <td>Course 103 Class 226</td>
+                <td>Lecturer 226</td>
+                <td>group_226</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 7</td>
+                <td>35</td>
+                <td>Course 216 Class 485</td>
+                <td>Lecturer 485</td>
+                <td>group_485</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 7</td>
+                <td>27</td>
+                <td>Course 84 Class 167</td>
+                <td>Lecturer 167</td>
+                <td>group_167</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 6</td>
+                <td>37</td>
+                <td>Course 28 Class 47</td>
+                <td>Lecturer 47</td>
+                <td>group_47</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 6</td>
+                <td>5</td>
+                <td>Course 219 Class 492</td>
+                <td>Lecturer 492</td>
+                <td>group_492</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 6</td>
+                <td>34</td>
+                <td>Course 169 Class 387</td>
+                <td>Lecturer 387</td>
+                <td>group_387</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 12</td>
+                <td>4</td>
+                <td>Course 130 Class 294</td>
+                <td>Lecturer 294</td>
+                <td>group_294</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 12</td>
+                <td>21</td>
+                <td>Course 77 Class 155</td>
+                <td>Lecturer 155</td>
+                <td>group_155</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 12</td>
+                <td>37</td>
+                <td>Course 5 Class 10</td>
+                <td>Lecturer 10</td>
+                <td>group_10</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 12</td>
+                <td>34</td>
+                <td>Course 97 Class 200</td>
+                <td>Lecturer 200</td>
+                <td>group_200</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 12</td>
+                <td>14</td>
+                <td>Course 164 Class 361</td>
+                <td>Lecturer 361</td>
+                <td>group_361</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 12</td>
+                <td>35</td>
+                <td>Course 130 Class 296</td>
+                <td>Lecturer 296</td>
+                <td>group_296</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 12</td>
+                <td>27</td>
+                <td>Course 117 Class 270</td>
+                <td>Lecturer 270</td>
+                <td>group_270</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 12</td>
+                <td>10</td>
+                <td>Course 209 Class 465</td>
+                <td>Lecturer 465</td>
+                <td>group_465</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 12</td>
+                <td>5</td>
+                <td>Course 87 Class 175</td>
+                <td>Lecturer 175</td>
+                <td>group_175</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 1</td>
+                <td>34</td>
+                <td>Course 159 Class 353</td>
+                <td>Lecturer 353</td>
+                <td>group_353</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 1</td>
+                <td>5</td>
+                <td>Course 220 Class 503</td>
+                <td>Lecturer 503</td>
+                <td>group_503</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 1</td>
+                <td>21</td>
+                <td>Course 50 Class 96</td>
+                <td>Lecturer 96</td>
+                <td>group_96</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 1</td>
+                <td>37</td>
+                <td>Course 213 Class 476</td>
+                <td>Lecturer 476</td>
+                <td>group_476</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 1</td>
+                <td>35</td>
+                <td>Course 103 Class 224</td>
+                <td>Lecturer 224</td>
+                <td>group_224</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 1</td>
+                <td>25</td>
+                <td>Course 78 Class 159</td>
+                <td>Lecturer 159</td>
+                <td>group_159</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 2</td>
+                <td>5</td>
+                <td>Course 200 Class 499</td>
+                <td>Lecturer 499</td>
+                <td>group_499</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 2</td>
+                <td>21</td>
+                <td>Course 114 Class 262</td>
+                <td>Lecturer 262</td>
+                <td>group_262</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 2</td>
+                <td>7</td>
+                <td>Course 72 Class 142</td>
+                <td>Lecturer 142</td>
+                <td>group_142</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 2</td>
+                <td>34</td>
+                <td>Course 168 Class 383</td>
+                <td>Lecturer 383</td>
+                <td>group_383</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 2</td>
+                <td>25</td>
+                <td>Course 21 Class 38</td>
+                <td>Lecturer 38</td>
+                <td>group_38</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 9</td>
+                <td>34</td>
+                <td>Course 101 Class 221</td>
+                <td>Lecturer 221</td>
+                <td>group_221</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 9</td>
+                <td>5</td>
+                <td>Course 181 Class 418</td>
+                <td>Lecturer 418</td>
+                <td>group_418</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 9</td>
+                <td>21</td>
+                <td>Course 156 Class 346</td>
+                <td>Lecturer 346</td>
+                <td>group_346</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 9</td>
+                <td>37</td>
+                <td>Course 168 Class 386</td>
+                <td>Lecturer 386</td>
+                <td>group_386</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 9</td>
+                <td>6</td>
+                <td>Course 204 Class 460</td>
+                <td>Lecturer 460</td>
+                <td>group_460</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 6</td>
+                <td>34</td>
+                <td>Course 215 Class 481</td>
+                <td>Lecturer 481</td>
+                <td>group_481</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 6</td>
+                <td>27</td>
+                <td>Course 4 Class 5</td>
+                <td>Lecturer 5</td>
+                <td>group_5</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 6</td>
+                <td>37</td>
+                <td>Course 10 Class 16</td>
+                <td>Lecturer 16</td>
+                <td>group_16</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 6</td>
+                <td>5</td>
+                <td>Course 76 Class 154</td>
+                <td>Lecturer 154</td>
+                <td>group_154</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 6</td>
+                <td>15</td>
+                <td>Course 130 Class 294</td>
+                <td>Lecturer 294</td>
+                <td>group_294</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 6</td>
+                <td>35</td>
+                <td>Course 100 Class 215</td>
+                <td>Lecturer 215</td>
+                <td>group_215</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 6</td>
+                <td>25</td>
+                <td>Course 52 Class 106</td>
+                <td>Lecturer 106</td>
+                <td>group_106</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 6</td>
+                <td>21</td>
+                <td>Course 161 Class 357</td>
+                <td>Lecturer 357</td>
+                <td>group_357</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 4</td>
+                <td>5</td>
+                <td>Course 110 Class 250</td>
+                <td>Lecturer 250</td>
+                <td>group_250</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 4</td>
+                <td>21</td>
+                <td>Course 214 Class 478</td>
+                <td>Lecturer 478</td>
+                <td>group_478</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 4</td>
+                <td>35</td>
+                <td>Course 81 Class 164</td>
+                <td>Lecturer 164</td>
+                <td>group_164</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 4</td>
+                <td>37</td>
+                <td>Course 219 Class 496</td>
+                <td>Lecturer 496</td>
+                <td>group_496</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 4</td>
+                <td>34</td>
+                <td>Course 200 Class 513</td>
+                <td>Lecturer 513</td>
+                <td>group_513</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 5</td>
+                <td>6</td>
+                <td>Course 74 Class 146</td>
+                <td>Lecturer 146</td>
+                <td>group_146</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 5</td>
+                <td>37</td>
+                <td>Course 177 Class 410</td>
+                <td>Lecturer 410</td>
+                <td>group_410</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 5</td>
+                <td>15</td>
+                <td>Course 15 Class 26</td>
+                <td>Lecturer 26</td>
+                <td>group_26</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 5</td>
+                <td>34</td>
+                <td>Course 167 Class 372</td>
+                <td>Lecturer 372</td>
+                <td>group_372</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 5</td>
+                <td>5</td>
+                <td>Course 202 Class 498</td>
+                <td>Lecturer 498</td>
+                <td>group_498</td>
+            </tr>
+            
+            <tr>
+                <td>THU</td>
+                <td>Period 5</td>
+                <td>21</td>
+                <td>Course 108 Class 244</td>
+                <td>Lecturer 244</td>
+                <td>group_244</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 9</td>
+                <td>35</td>
+                <td>Course 103 Class 227</td>
+                <td>Lecturer 227</td>
+                <td>group_227</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 9</td>
+                <td>27</td>
+                <td>Course 39 Class 70</td>
+                <td>Lecturer 70</td>
+                <td>group_70</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 9</td>
+                <td>25</td>
+                <td>Course 52 Class 101</td>
+                <td>Lecturer 101</td>
+                <td>group_101</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 9</td>
+                <td>5</td>
+                <td>Course 167 Class 368</td>
+                <td>Lecturer 368</td>
+                <td>group_368</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 7</td>
+                <td>37</td>
+                <td>Course 145 Class 317</td>
+                <td>Lecturer 317</td>
+                <td>group_317</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 7</td>
+                <td>34</td>
+                <td>Course 170 Class 390</td>
+                <td>Lecturer 390</td>
+                <td>group_390</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 7</td>
+                <td>5</td>
+                <td>Course 150 Class 333</td>
+                <td>Lecturer 333</td>
+                <td>group_333</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 7</td>
+                <td>21</td>
+                <td>Course 77 Class 155</td>
+                <td>Lecturer 155</td>
+                <td>group_155</td>
+            </tr>
+            
+            <tr>
+                <td>TUE</td>
+                <td>Period 7</td>
+                <td>35</td>
+                <td>Course 75 Class 151</td>
+                <td>Lecturer 151</td>
+                <td>group_151</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 4</td>
+                <td>5</td>
+                <td>Course 200 Class 448</td>
+                <td>Lecturer 448</td>
+                <td>group_448</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 4</td>
+                <td>35</td>
+                <td>Course 105 Class 238</td>
+                <td>Lecturer 238</td>
+                <td>group_238</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 4</td>
+                <td>21</td>
+                <td>Course 149 Class 325</td>
+                <td>Lecturer 325</td>
+                <td>group_325</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 4</td>
+                <td>37</td>
+                <td>Course 211 Class 470</td>
+                <td>Lecturer 470</td>
+                <td>group_470</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 4</td>
+                <td>34</td>
+                <td>Course 216 Class 487</td>
+                <td>Lecturer 487</td>
+                <td>group_487</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 4</td>
+                <td>6</td>
+                <td>Course 205 Class 461</td>
+                <td>Lecturer 461</td>
+                <td>group_461</td>
+            </tr>
+            
+            <tr>
+                <td>WED</td>
+                <td>Period 4</td>
+                <td>25</td>
+                <td>Course 77 Class 155</td>
+                <td>Lecturer 155</td>
+                <td>group_155</td>
+            </tr>
+            
+        </table>
+    </body>
+    </html>
+    

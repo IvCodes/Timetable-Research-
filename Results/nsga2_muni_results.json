@@ -1,0 +1,15 @@
+{
+  "algorithm": "NSGA-II",
+  "dataset": "munifspsspr17",
+  "runtime_seconds": 93.04487943649292,
+  "best_fitness": 48910,
+  "assigned_classes": 428,
+  "total_classes": 561,
+  "constraint_violations": {
+    "room_conflicts": 10,
+    "time_conflicts": 0,
+    "distribution_conflicts": 1100,
+    "student_conflicts": 324,
+    "capacity_violations": 3
+  }
+}
