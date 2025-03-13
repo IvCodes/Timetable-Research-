@@ -17,26 +17,25 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Import common modules
-# Import common modules
 from solution import Solution
 from data_loader_muni import load_muni_data
 from evaluate import evaluate_solution
-from utils_1 import TupleKeyEncoder, save_results, print_solution_stats
-from metrics import calculate_hypervolume, track_constraint_violations, calculate_spacing, calculate_igd, analyze_constraint_violations
+from utils_1 import TupleKeyEncoder, save_results, print_solution_stats, repair_schedule, detect_conflicts
+from metrics import calculate_hypervolume, track_constraint_violations, calculate_spacing, calculate_igd, analyze_constraint_violations, update_reference_point
 from plots import plot_metrics, plot_constraint_violations, plot_pareto_size
 
 # Import NSGA-II helper functions
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'nsga_II'))
 from test_nsga2_muni import (
     initialize_population, evaluate_population, mutate, crossover, 
-    detect_conflicts, repair_schedule, find_best_solution, 
-    tournament_selection, mutate_existing_assignment, add_new_assignment
+    tournament_selection, find_best_solution, 
+    mutate_existing_assignment, add_new_assignment
 )
 
 # Algorithm parameters
 POPULATION_SIZE = 10
-ARCHIVE_SIZE = 10
-NUM_GENERATIONS = 10
+ARCHIVE_SIZE = 5
+NUM_GENERATIONS = 100
 MUTATION_RATE = 0.1
 CROSSOVER_RATE = 0.8
 NUM_OBJECTIVES = 5  # Number of objectives in the optimization
@@ -72,23 +71,6 @@ def get_pareto_front(population):
             pareto_front.append(solution)
     
     return pareto_front
-
-def extract_fitness_arrays(solutions):
-    """
-    Extract fitness arrays from solutions for metric calculations.
-    
-    Args:
-        solutions: List of Solution objects
-        
-    Returns:
-        List of fitness arrays
-    """
-    fitness_arrays = []
-    for sol in solutions:
-        if sol.fitness and all(f is not None for f in sol.fitness):
-            fitness_arrays.append(np.array(sol.fitness))
-    
-    return fitness_arrays
 
 def _analyze_violations(solution, data):
     """Helper function to analyze different types of violations."""
@@ -312,185 +294,143 @@ def select_parents(population, tournament_size=2):
     
     return parent1, parent2
 
-def update_metrics(archive, metrics, generation, data, verbose=False):
+def update_metrics_from_archive(archive, metrics, ideal_point, data, verbose):
     """
-    Update all metrics for the current generation.
+    Update metrics based on the current archive.
     
     Args:
         archive: Current archive of solutions
-        metrics: Metrics dictionary to update
-        generation: Current generation number
-        data: Dictionary containing dataset information
-        verbose: Whether to print information
-        
-    Returns:
-        Updated metrics dictionary
-    """
-    try:
-        pareto_front = get_pareto_front(archive)
-        fitness_arrays = extract_fitness_arrays(pareto_front)
-        
-        if fitness_arrays and len(fitness_arrays) >= 2:
-            # Get minimum dimensionality
-            min_dim = min(len(f) for f in fitness_arrays)
-            fitness_arrays = [f[:min_dim] for f in fitness_arrays]
-            
-            # Create adaptive reference point
-            ref_point = np.array([max(f[i] for f in fitness_arrays) * 1.1 for i in range(min_dim)])
-            
-            # Calculate metrics
-            metrics['hypervolume'].append(calculate_hypervolume(fitness_arrays, ref_point))
-            metrics['spacing'].append(calculate_spacing(fitness_arrays))
-            metrics['igd'].append(calculate_igd(fitness_arrays, fitness_arrays))
-        else:
-            # Not enough valid solutions
-            if verbose and generation % 5 == 0:
-                print("Not enough valid fitness values for metric calculations")
-            metrics['hypervolume'].append(0.0)
-            metrics['spacing'].append(0.0)
-            metrics['igd'].append(0.0)
-        
-        metrics['pareto_front_size'].append(len(pareto_front))
-        
-        # Update constraint violations - ensure it matches the expected format for plotting
-        violations = analyze_constraint_violations(archive, data)
-        
-        # Make sure violations has the expected structure with 'total_counts'
-        if 'total_counts' not in violations:
-            # Create a properly structured violations object
-            formatted_violations = {
-                'total_counts': {
-                    'room_conflicts': 0,
-                    'time_conflicts': 0,
-                    'distribution_conflicts': 0,
-                    'student_conflicts': 0,
-                    'capacity_violations': 0
-                },
-                'total_by_type': violations.get('total_by_type', {})
-            }
-            
-            # Copy values from total_by_type if available
-            if 'total_by_type' in violations:
-                for key in formatted_violations['total_counts'].keys():
-                    if key in violations['total_by_type']:
-                        formatted_violations['total_counts'][key] = violations['total_by_type'][key]
-            
-            metrics['constraint_violations'].append(formatted_violations)
-        else:
-            metrics['constraint_violations'].append(violations)
-        
-        # Update best and average fitness
-        fitnesses = [s.fitness[0] for s in archive if s.fitness]
-        if fitnesses:
-            metrics['best_fitness'].append(min(fitnesses))
-            metrics['average_fitness'].append(sum(fitnesses) / len(fitnesses))
-        else:
-            metrics['best_fitness'].append(float('inf'))
-            metrics['average_fitness'].append(float('inf'))
-    
-    except Exception as e:
-        if verbose and generation % 5 == 0:
-            print(f"Error calculating metrics: {e}")
-        # Set default values
-        metrics['hypervolume'].append(0.0)
-        metrics['spacing'].append(0.0)
-        metrics['igd'].append(0.0)
-        metrics['pareto_front_size'].append(0)
-        
-        # Add properly formatted constraint violations even in case of error
-        metrics['constraint_violations'].append({
-            'total_counts': {
-                'room_conflicts': 0,
-                'time_conflicts': 0,
-                'distribution_conflicts': 0,
-                'student_conflicts': 0,
-                'capacity_violations': 0
-            },
-            'total_by_type': {}
-        })
-        
-        metrics['best_fitness'].append(float('inf'))
-        metrics['average_fitness'].append(float('inf'))
-    
-    # Track execution time
-    metrics['execution_time'].append(time.time() - metrics['start_time'])
-    
-    return metrics
-
-def print_progress(generation, archive, metrics):
-    """Print progress information for the current generation."""
-    print(f"  Generation: {generation}")
-    print(f"  Archive size: {len(archive)}")
-    print(f"  Best fitness: {metrics['best_fitness'][-1]:.4f}")
-    print(f"  Avg fitness: {metrics['average_fitness'][-1]:.4f}")
-    print(f"  Hypervolume: {metrics['hypervolume'][-1]:.4f}")
-    print(f"  Pareto front size: {metrics['pareto_front_size'][-1]}")
-    print(f"  Execution time: {metrics['execution_time'][-1]:.2f}s")
-
-def spea2_muni(data, verbose=False):
-    """
-    Main SPEA2 algorithm implementation.
-    
-    Args:
-        data: Dictionary containing dataset information
+        metrics: Dictionary of metrics to update
+        ideal_point: Current ideal point
+        data: Problem data
         verbose: Whether to print progress information
         
     Returns:
-        Final archive of solutions and metrics dictionary
+        Updated metrics, updated ideal point
     """
+    if not archive:
+        return metrics, ideal_point
+    
+    # Calculate metrics from pareto front
+    pareto_front = get_pareto_front(archive)
+    metrics['hypervolume'].append(calculate_hypervolume(pareto_front))
+    metrics['spacing'].append(calculate_spacing(pareto_front))
+    metrics['igd'].append(calculate_igd(pareto_front, ideal_point))
+    metrics['pareto_front_size'].append(len(pareto_front))
+    
+    # Update constraint violations
+    violations = analyze_constraint_violations(archive, data)
+    metrics['constraint_violations'].append(violations)
+    
+    # Update ideal point
+    for solution in archive:
+        if solution.fitness:
+            update_reference_point(solution.fitness, ideal_point)
+            
+    # Update fitness metrics
+    update_fitness_metrics(archive, metrics)
+    
+    # Print progress if needed
+    if verbose and len(metrics['hypervolume']) % 10 == 0:
+        print(f"Generation metrics - HV: {metrics['hypervolume'][-1]:.4f}, " 
+              f"Pareto size: {metrics['pareto_front_size'][-1]}")
+              
+    return metrics, ideal_point
+
+def update_fitness_metrics(archive, metrics):
+    """Update best and average fitness metrics from archive."""
+    fitnesses = [s.fitness[0] for s in archive if s.fitness]
+    if fitnesses:
+        metrics['best_fitness'].append(min(fitnesses))
+        metrics['average_fitness'].append(sum(fitnesses) / len(fitnesses))
+    return metrics
+
+def process_generation(population, archive, generation, metrics, ideal_point, data, verbose):
+    """
+    Process a single generation of the SPEA2 algorithm.
+    
+    Args:
+        population: Current population
+        archive: Current archive
+        generation: Current generation number
+        metrics: Dictionary of metrics to update
+        ideal_point: Current ideal point
+        data: Problem data
+        verbose: Whether to print progress information
+        
+    Returns:
+        Updated population, archive, best solution, metrics, ideal point
+    """
+    gen_start_time = time.time()
+    
+    # Print progress information
+    if verbose and generation % 10 == 0:
+        print(f"Generation {generation}/{generations}")
+    
+    # Environmental selection
+    archive = perform_environmental_selection(population, archive)
+    
+    # Find best solution in archive
+    current_best = find_best_solution(archive)
+    best_solution = copy.deepcopy(current_best) if is_better_solution(current_best, None) else None
+    
+    # Update metrics
+    metrics, ideal_point = update_metrics_from_archive(archive, metrics, ideal_point, data, verbose)
+    
+    # Update execution time
+    gen_time = time.time() - gen_start_time
+    metrics['execution_time'].append(gen_time)
+    
+    # Generate offspring
+    if generation < NUM_GENERATIONS - 1:
+        population = generate_offspring(population, archive, generation, data)
+        # Update best solution from population
+        best_solution = update_best_solution(population, best_solution)
+    
+    return population, archive, best_solution, metrics, ideal_point
+
+def spea2_muni(data, generations=NUM_GENERATIONS, verbose=False):
+    """
+    Run the SPEA2 algorithm to optimize university course timetabling.
+    
+    Args:
+        data: Dictionary containing dataset information
+        generations: Number of generations to run
+        verbose: Whether to print progress information
+    
+    Returns:
+        Final archive of optimized solutions, metrics dict
+    """
+    start_time = time.time()
+    
     # Print initial information
-    if verbose:
-        print_initial_info(data, verbose)
+    print_initial_info(data, verbose)
     
-    # Initialize metrics dictionary
+    # Initialize metrics, population, and archive
     metrics = initialize_metrics()
-    
-    # Initialize algorithm components
-    population, archive, best_solution, _ = initialize_algorithm_components(data)
+    population, archive = initialize_algorithm_components(data)
+    best_solution = None
+    ideal_point = [float('inf')] * NUM_OBJECTIVES
     
     # Main evolutionary loop
-    for generation in range(NUM_GENERATIONS):
-        # Print generation information
-        if verbose and generation % 5 == 0:
-            print(f"\nGeneration {generation}:")
-            
-        # Perform environmental selection
-        archive = perform_environmental_selection(population, archive)
-        
-        # Generate offspring
-        population = generate_offspring(population, archive, generation, data)
-        
-        # Update best solution
-        current_best = find_best_solution(archive)
-        if is_better_solution(current_best, best_solution):
-            best_solution = copy.deepcopy(current_best)
-        
-        # Update metrics
-        if archive:
-            metrics = update_metrics(archive, metrics, generation, data, verbose)
-            
-            # Print progress every 5 generations
-            if verbose and generation % 5 == 0:
-                print_progress(generation, archive, metrics)
+    for generation in range(generations):
+        population, archive, best_solution, metrics, ideal_point = process_generation(
+            population, archive, generation, metrics, ideal_point, data, verbose
+        )
     
-    # Print final results
+    # Print final information
+    total_time = time.time() - start_time
     if verbose:
-        print("\nFinal Results:")
-        print_progress(NUM_GENERATIONS, archive, metrics)
+        print(f"\nOptimization completed in {total_time:.2f} seconds")
     
     return archive, metrics
 
-def print_initial_info(data=None, verbose=False):
-    """Print initial algorithm information."""
+def print_initial_info(data, verbose):
+    """Print initial dataset information."""
     if verbose:
-        print("\nRunning SPEA2 Algorithm")
-        print(f"Population size: {POPULATION_SIZE}")
-        print(f"Archive size: {ARCHIVE_SIZE}")
-        print(f"Number of generations: {NUM_GENERATIONS}")
-        print(f"Crossover rate: {CROSSOVER_RATE}")
-        print(f"Mutation rate: {MUTATION_RATE}")
-        if data:
-            print(f"Dataset: {len(data['classes'])} classes, {len(data['rooms'])} rooms")
+        print(f"Dataset loaded. {len(data['classes'])} classes, {len(data['rooms'])} rooms")
+        fixed_classes = count_fixed_classes(data)
+        print(f"Fixed classes: {fixed_classes}")
 
 def count_fixed_classes(data):
     """Count the number of classes with fixed assignments."""
@@ -507,11 +447,10 @@ def initialize_metrics():
         'spacing': [],
         'igd': [],
         'best_fitness': [],
-        'average_fitness': [],  # Changed from 'avg_fitness' to 'average_fitness' for plotting compatibility
+        'average_fitness': [],
         'pareto_front_size': [],
         'constraint_violations': [],
-        'execution_time': [],
-        'start_time': time.time()
+        'execution_time': []
     }
 
 def initialize_algorithm_components(data):
@@ -527,7 +466,7 @@ def initialize_algorithm_components(data):
     # Initialize empty archive
     archive = []
     
-    return population, archive, None, data
+    return population, archive
 
 def perform_environmental_selection(population, archive):
     """Perform environmental selection to update the archive."""
@@ -606,16 +545,12 @@ def is_better_solution(solution1, solution2):
     
     return False
 
-def run_muni_optimization(verbose=False, format_solution=False):
+def run_muni_optimization(verbose=False):
     """
-    Run the SPEA2 optimization for the Muni dataset.
+    Main function to run the SPEA2 optimization for the munifspsspr17 dataset.
     
-    Args:
-        verbose: Whether to print progress information
-        format_solution: Whether to format and save the solution for frontend
-        
     Returns:
-        Tuple containing optimization results
+        Best timetable solution, formatted solution, data, metrics
     """
     # Load dataset with proper path
     data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'munifspsspr17.json')
@@ -647,11 +582,11 @@ def run_muni_optimization(verbose=False, format_solution=False):
         print("\nBest Solution Statistics:")
         print_solution_stats(best_solution, data)
     
-    # Format solution for frontend if requested
-    formatted_solution = None
-    if format_solution:
-        formatted_solution = format_solution_for_output(best_solution, data)
-        save_solution_for_frontend(formatted_solution)
+    # Format solution for frontend
+    formatted_solution = format_solution_for_output(best_solution, data)
+    
+    # Save solution and results
+    save_solution_for_frontend(formatted_solution)
     
     # Create a pareto front structure expected by save_results
     pareto_front = get_pareto_front(archive)
@@ -663,10 +598,7 @@ def run_muni_optimization(verbose=False, format_solution=False):
         os.makedirs(output_dir)
     save_results(best_solution, fronts, metrics, data, os.path.join(output_dir, "spea2_results.json"))
     
-    if format_solution:
-        return best_solution, formatted_solution, data, metrics
-    else:
-        return best_solution, data, metrics
+    return best_solution, formatted_solution, data, metrics
 
 def save_solution_for_frontend(solution):
     """
@@ -697,8 +629,28 @@ def create_structured_entity(entity_type, data):
     Returns:
         A dictionary with structured entity data
     """
-    if entity_type in ['day', 'period']:
-        return format_simple_entity(data)
+    if entity_type == 'day':
+        # Create a day entity
+        if isinstance(data, dict) and 'name' in data:
+            # Already formatted
+            return data
+        else:
+            # Format as needed
+            return {
+                'name': str(data),
+                'code': str(data)
+            }
+    elif entity_type == 'period':
+        # Create a period entity
+        if isinstance(data, dict) and 'name' in data:
+            # Already formatted
+            return data
+        else:
+            # Format as needed
+            return {
+                'name': str(data),
+                'code': str(data)
+            }
     elif entity_type == 'room':
         # Create a room entity
         if isinstance(data, dict):
@@ -715,19 +667,7 @@ def create_structured_entity(entity_type, data):
                 'code': str(data),
                 'capacity': 0
             }
-    return {}  # Default empty entity if type not recognized
-
-def format_simple_entity(data):
-    """Format day or period entity with consistent structure."""
-    if isinstance(data, dict) and 'name' in data:
-        # Already formatted
-        return data
-    else:
-        # Format as needed
-        return {
-            'name': str(data),
-            'code': str(data)
-        }
+    return {}
 
 def create_room_entity(room_id, data):
     """Helper function to create a properly structured room entity."""
@@ -747,25 +687,24 @@ def create_room_entity(room_id, data):
 
 def format_solution_for_output(solution, data):
     """
-    Format a solution for output to the frontend.
+    Format the solution for output in a structured format compatible with frontend.
     
     Args:
         solution: Solution object
-        data: Data dictionary
-        
+        data: Dataset information
+    
     Returns:
-        Formatted solution dictionary
+        Dictionary with properly formatted solution
     """
-    # Initialize output structure
     formatted_solution = {
-        'activities': [],
-        'algorithm': 'SPEA2'
+        'algorithm': 'SPEA2',
+        'activities': []
     }
     
     # Process each assignment
-    for class_id, assignment in solution.assignments.items():
+    for assignment in solution.assignments:
         # Extract assignment details
-        room_id, time_id = assignment
+        class_id, room_id, time_id = extract_assignment_details(assignment)
         
         # Get entity data
         day_entity, period_entity, room_entity, activity_name = get_entity_data(class_id, room_id, time_id, data)
@@ -777,9 +716,11 @@ def format_solution_for_output(solution, data):
     
     return formatted_solution
 
-def extract_assignment_details(class_id, assignment):
+def extract_assignment_details(assignment):
     """Extract basic assignment details."""
-    room_id, time_id = assignment
+    class_id = assignment['class_id']
+    room_id = assignment['room_id']
+    time_id = assignment['time_id']
     return class_id, room_id, time_id
 
 def get_entity_data(class_id, room_id, time_id, data):
@@ -820,20 +761,15 @@ if __name__ == "__main__":
     # Set random seed for reproducibility
     random.seed(42)
     np.random.seed(42)
-    #formatted_solution
     
     try:
         # Run optimization
-        best_solution, data, metrics = run_muni_optimization(verbose=True, format_solution=False)
+        best_solution, formatted_solution, data, metrics = run_muni_optimization(verbose=True)
         
         # Generate plots - using correct parameter count
         plot_metrics(metrics)
-        
-        # Extract the total_counts from each constraint violation entry
-        violations_data = [v['total_counts'] for v in metrics['constraint_violations']]
-        plot_constraint_violations(violations_data)
-        
-        plot_pareto_size(metrics['pareto_front_size'])
+        plot_constraint_violations(metrics)
+        plot_pareto_size(metrics)
         
         print("\nSPEA2 optimization completed successfully!")
         print(f"Solution saved to: {os.path.join(os.path.dirname(os.path.abspath(__file__)), 'spea2_results', 'spea2_solution.json')}")
