@@ -323,11 +323,11 @@ def get_classsize(activity, groups_dict):
         classsize += groups_dict[id].size
     return classsize
 
-def dominates(fitness1, fitness2):
-    """
-    Determines if fitness1 dominates fitness2 in a multi-objective minimization context.
+def dominates(solution1, solution2):
+    """Return True if solution1 dominates solution2."""
+    # Get fitness values from Solution objects
+    fitness1 = solution1.fitness
+    fitness2 = solution2.fitness
     
-    Returns True if fitness1 dominates fitness2 (i.e., is better in at least one objective
-    and not worse in any objective).
-    """
-    return all(f1 <= f2 for f1, f2 in zip(fitness1, fitness2)) and any(f1 < f2 for f1, f2 in zip(fitness1, fitness2))
+    return all(f1 <= f2 for f1, f2 in zip(fitness1, fitness2)) and \
+           any(f1 < f2 for f1, f2 in zip(fitness1, fitness2))

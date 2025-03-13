@@ -7,7 +7,7 @@ and use it with the existing timetable scheduling algorithms.
 import sys
 import os
 import json
-from unitime_loader import load_unitime_json, load_unitime_xml
+from TimeTableScheduler.muni_17.ga.unitime_loader import load_unitime_json, load_unitime_xml
 from utils import evaluate_hard_constraints, evaluate_soft_constraints, evaluate
 
 # Path to the UniTime dataset

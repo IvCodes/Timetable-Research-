@@ -17,7 +17,7 @@ import time
 import traceback
 
 # Import the UniTime dataset loader
-from unitime_loader import load_unitime_json, load_unitime_xml
+from TimeTableScheduler.muni_17.ga.unitime_loader import load_unitime_json, load_unitime_xml
 
 # Path to the UniTime dataset
 UNITIME_JSON_PATH = '../Advance-Timetable-Scheduling-Backend/Data/munifspsspr17.json'
