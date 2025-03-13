@@ -1,0 +1,456 @@
+{
+  "hypervolume": [
+    244922.68300500012,
+    281832.32983950025,
+    281832.32983950025,
+    281832.32983950025,
+    281832.32983950025,
+    323918.92683150026,
+    213972.0,
+    213972.0,
+    3424.900000000001,
+    3424.900000000001
+  ],
+  "spacing": [
+    41.31500910075511,
+    10.338100959653984,
+    22.089907643156792,
+    10.885478556768916,
+    26.770284492350214,
+    39.8578760999159,
+    41.22052661835385,
+    41.22052661835385,
+    25.37208167919282,
+    25.37208167919282
+  ],
+  "igd": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "best_fitness": [
+    726.0,
+    505.0,
+    505.0,
+    505.0,
+    505.0,
+    405.0,
+    405.0,
+    405.0,
+    405.0,
+    405.0
+  ],
+  "average_fitness": [
+    1019.5333333333333,
+    807.9666666666667,
+    762.5333333333333,
+    758.5333333333333,
+    755.2,
+    602.3666666666667,
+    560.0333333333333,
+    560.0333333333333,
+    538.3333333333334,
+    538.3333333333334
+  ],
+  "constraint_violations": [
+    {
+      "room_conflicts": {
+        "min": 0,
+        "max": 35,
+        "avg": 7.866666666666666,
+        "total": 236
+      },
+      "time_conflicts": {
+        "min": 91,
+        "max": 158,
+        "avg": 118.5,
+        "total": 3555
+      },
+      "distribution_conflicts": {
+        "min": 113,
+        "max": 126,
+        "avg": 123.43333333333334,
+        "total": 3703
+      },
+      "student_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "capacity_violations": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "total": {
+        "min": 3080,
+        "max": 4650,
+        "avg": 3683.0,
+        "total": 110490
+      }
+    },
+    {
+      "room_conflicts": {
+        "min": 0,
+        "max": 30,
+        "avg": 3.966666666666667,
+        "total": 119
+      },
+      "time_conflicts": {
+        "min": 87,
+        "max": 157,
+        "avg": 109.7,
+        "total": 3291
+      },
+      "distribution_conflicts": {
+        "min": 104,
+        "max": 126,
+        "avg": 118.1,
+        "total": 3543
+      },
+      "student_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "capacity_violations": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "total": {
+        "min": 2780,
+        "max": 4570,
+        "avg": 3414.6666666666665,
+        "total": 102440
+      }
+    },
+    {
+      "room_conflicts": {
+        "min": 0,
+        "max": 30,
+        "avg": 2.3666666666666667,
+        "total": 71
+      },
+      "time_conflicts": {
+        "min": 85,
+        "max": 157,
+        "avg": 104.13333333333334,
+        "total": 3124
+      },
+      "distribution_conflicts": {
+        "min": 105,
+        "max": 126,
+        "avg": 116.36666666666666,
+        "total": 3491
+      },
+      "student_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "capacity_violations": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "total": {
+        "min": 2810,
+        "max": 4570,
+        "avg": 3270.0,
+        "total": 98100
+      }
+    },
+    {
+      "room_conflicts": {
+        "min": 0,
+        "max": 30,
+        "avg": 1.7,
+        "total": 51
+      },
+      "time_conflicts": {
+        "min": 85,
+        "max": 155,
+        "avg": 102.56666666666666,
+        "total": 3077
+      },
+      "distribution_conflicts": {
+        "min": 105,
+        "max": 126,
+        "avg": 116.43333333333334,
+        "total": 3493
+      },
+      "student_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "capacity_violations": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "total": {
+        "min": 2810,
+        "max": 4570,
+        "avg": 3232.6666666666665,
+        "total": 96980
+      }
+    },
+    {
+      "room_conflicts": {
+        "min": 0,
+        "max": 30,
+        "avg": 1.7,
+        "total": 51
+      },
+      "time_conflicts": {
+        "min": 85,
+        "max": 155,
+        "avg": 102.83333333333333,
+        "total": 3085
+      },
+      "distribution_conflicts": {
+        "min": 105,
+        "max": 126,
+        "avg": 116.46666666666667,
+        "total": 3494
+      },
+      "student_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "capacity_violations": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "total": {
+        "min": 2810,
+        "max": 4570,
+        "avg": 3238.3333333333335,
+        "total": 97150
+      }
+    },
+    {
+      "room_conflicts": {
+        "min": 0,
+        "max": 30,
+        "avg": 1.7,
+        "total": 51
+      },
+      "time_conflicts": {
+        "min": 85,
+        "max": 155,
+        "avg": 99.2,
+        "total": 2976
+      },
+      "distribution_conflicts": {
+        "min": 105,
+        "max": 125,
+        "avg": 115.6,
+        "total": 3468
+      },
+      "student_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "capacity_violations": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "total": {
+        "min": 2810,
+        "max": 4570,
+        "avg": 3157.0,
+        "total": 94710
+      }
+    },
+    {
+      "room_conflicts": {
+        "min": 0,
+        "max": 30,
+        "avg": 1.7,
+        "total": 51
+      },
+      "time_conflicts": {
+        "min": 76,
+        "max": 155,
+        "avg": 97.03333333333333,
+        "total": 2911
+      },
+      "distribution_conflicts": {
+        "min": 104,
+        "max": 125,
+        "avg": 114.86666666666666,
+        "total": 3446
+      },
+      "student_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "capacity_violations": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "total": {
+        "min": 2650,
+        "max": 4570,
+        "avg": 3106.3333333333335,
+        "total": 93190
+      }
+    },
+    {
+      "room_conflicts": {
+        "min": 0,
+        "max": 30,
+        "avg": 1.7,
+        "total": 51
+      },
+      "time_conflicts": {
+        "min": 76,
+        "max": 155,
+        "avg": 97.03333333333333,
+        "total": 2911
+      },
+      "distribution_conflicts": {
+        "min": 104,
+        "max": 125,
+        "avg": 114.86666666666666,
+        "total": 3446
+      },
+      "student_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "capacity_violations": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "total": {
+        "min": 2650,
+        "max": 4570,
+        "avg": 3106.3333333333335,
+        "total": 93190
+      }
+    },
+    {
+      "room_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "time_conflicts": {
+        "min": 76,
+        "max": 101,
+        "avg": 90.2,
+        "total": 2706
+      },
+      "distribution_conflicts": {
+        "min": 104,
+        "max": 115,
+        "avg": 112.46666666666667,
+        "total": 3374
+      },
+      "student_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "capacity_violations": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "total": {
+        "min": 2560,
+        "max": 3170,
+        "avg": 2928.6666666666665,
+        "total": 87860
+      }
+    },
+    {
+      "room_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "time_conflicts": {
+        "min": 76,
+        "max": 101,
+        "avg": 90.2,
+        "total": 2706
+      },
+      "distribution_conflicts": {
+        "min": 104,
+        "max": 115,
+        "avg": 112.46666666666667,
+        "total": 3374
+      },
+      "student_conflicts": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "capacity_violations": {
+        "min": 0,
+        "max": 0,
+        "avg": 0.0,
+        "total": 0
+      },
+      "total": {
+        "min": 2560,
+        "max": 3170,
+        "avg": 2928.6666666666665,
+        "total": 87860
+      }
+    }
+  ],
+  "pareto_front_size": [
+    21,
+    12,
+    12,
+    12,
+    12,
+    11,
+    10,
+    10,
+    10,
+    10
+  ]
+}

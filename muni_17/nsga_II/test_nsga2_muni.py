@@ -247,7 +247,7 @@ def crowding_distance_assignment(front):
 
 def adjust_mutation_rate(solution, base_rate=0.1):
     """Adjust mutation rate based on solution generation."""
-    if hasattr(solution, 'generation'):
+    if hasattr(solution, 'generation') and solution.generation is not None:
         generation_factor = min(0.5, solution.generation / 20.0)
         return base_rate + generation_factor
     return base_rate
