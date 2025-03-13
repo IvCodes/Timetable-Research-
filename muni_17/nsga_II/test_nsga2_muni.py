@@ -8,7 +8,6 @@ import json
 import random
 import time
 import numpy as np
-from copy import deepcopy
 from scipy.spatial import ConvexHull
 from collections import defaultdict
 import pandas as pd
@@ -20,10 +19,9 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Import modules from parent directory
 from solution import Solution
-from utils_1 import TupleKeyEncoder, save_results
+from utils_1 import TupleKeyEncoder, save_results,print_solution_stats
 from data_loader_muni import load_muni_data
 from evaluate import evaluate_solution
-from print_stats import print_solution_stats
 from metrics import calculate_hypervolume, track_constraint_violations, calculate_spacing, calculate_igd, analyze_constraint_violations
 from plots import plot_metrics, plot_constraint_violations, plot_pareto_size
 from validate import get_valid_rooms, get_valid_times
@@ -438,6 +436,11 @@ def update_metrics(fronts, population, metrics, reference_point, best_solution, 
     metrics['spacing'].append(calculate_spacing(pareto_front_fitness))
     metrics['pareto_front_size'].append(len(fronts[0]))
     
+    # Calculate IGD if we have a reference front
+    if 'reference_front' in data:
+        igd_value = calculate_igd(pareto_front_fitness, data['reference_front'])
+        metrics['igd'].append(igd_value)
+    
     # Analyze constraint violations
     violations = analyze_constraint_violations(population, data)
     
@@ -463,83 +466,22 @@ def update_metrics(fronts, population, metrics, reference_point, best_solution, 
     metrics['average_fitness'].append(sum([sum(s.fitness) for s in population]) / len(population))
     
     if verbose:
-        print(f"  Best fitness: {metrics['best_fitness'][-1]:.2f}")
-        print(f"  Pareto front size: {metrics['pareto_front_size'][-1]}")
-        print(f"  Hypervolume: {metrics['hypervolume'][-1]:.2f}")
-        print(f"  Constraint violations: {violations['total']}")
+        print("\nGeneration Metrics:")
+        print("  Best fitness: {:.2f}".format(metrics['best_fitness'][-1]))
+        print("  Average fitness: {:.2f}".format(metrics['average_fitness'][-1]))
+        print("  Pareto front size: {}".format(metrics['pareto_front_size'][-1]))
+        print("  Hypervolume: {:.2f}".format(metrics['hypervolume'][-1]))
+        if 'igd' in metrics and metrics['igd']:
+            print("  IGD: {:.4f}".format(metrics['igd'][-1]))
+        print("\nConstraint Violations:")
+        print("  Room conflicts: {:.2f}".format(violations['total_counts']['room_conflicts']))
+        print("  Time conflicts: {:.2f}".format(violations['total_counts']['time_conflicts']))
+        print("  Distribution conflicts: {:.2f}".format(violations['total_counts']['distribution_conflicts']))
+        print("  Student conflicts: {:.2f}".format(violations['total_counts']['student_conflicts']))
+        print("  Capacity violations: {:.2f}".format(violations['total_counts']['capacity_violations']))
+        print("  Total weighted score: {:.2f}".format(violations['total_counts']['total_weighted_score']))
     
     return best_solution, metrics
-
-def nsga2_muni(data, population_size=POPULATION_SIZE, max_generations=NUM_GENERATIONS, crossover_rate=0.8, mutation_rate=0.2, verbose=False):
-    """
-    Run NSGA-II algorithm on the MUni dataset.
-    
-    Args:
-        data: Dictionary with problem data
-        population_size: Size of the population
-        max_generations: Maximum number of generations
-        crossover_rate: Probability of crossover
-        mutation_rate: Probability of mutation
-        verbose: If True, print progress information
-    
-    Returns:
-        (best_solution, fronts, metrics)
-    """
-    # Initialize population and evaluate
-    population = initialize_population(data, population_size)
-    evaluate_population(population, data)
-    fronts = fast_nondominated_sort(population)
-    
-    # Initialize metrics tracking
-    metrics = {
-        'hypervolume': [], 'spacing': [], 'igd': [], 'best_fitness': [],
-        'average_fitness': [], 'pareto_front_size': [], 'constraint_violations': []
-    }
-    
-    # Track best solution and set reference point for hypervolume
-    best_solution = None
-    reference_point = [1000, 100, 100, 100, 100, 100]  # High values for each objective
-    
-    # Main loop
-    for generation in range(max_generations):
-        if verbose:
-            print(f"\nGeneration {generation+1}/{max_generations}")
-        
-        # Calculate crowding distance for each front
-        for front in fronts:
-            crowding_distance_assignment(front)
-        
-        # Create offspring
-        offspring = create_offspring(population, generation, data, population_size, 
-                                    crossover_rate, mutation_rate, metrics)
-        
-        # Evaluate offspring
-        evaluate_population(offspring, data)
-        
-        # Combine parent and offspring populations and do non-dominated sorting
-        combined_population = population + offspring
-        combined_fronts = fast_nondominated_sort(combined_population)
-        
-        # Select next generation
-        next_population = select_next_generation(combined_fronts, population_size)
-        
-        # Handle diversity preservation
-        next_population = handle_diversity_preservation(
-            next_population, metrics, data, population_size, verbose)
-        
-        # Update population and fronts
-        population = next_population
-        fronts = fast_nondominated_sort(population)
-        
-        # Update metrics and best solution
-        best_solution, metrics = update_metrics(
-            fronts, population, metrics, reference_point, best_solution, data, verbose)
-    
-    # Return best solution, final fronts, and metrics
-    if best_solution is None and population:
-        best_solution = find_best_solution(population)
-    
-    return best_solution, fronts, metrics
 
 def calculate_mixing_rate(parent1, parent2):
     """Calculate mixing rate based on similarity between parents."""
@@ -843,10 +785,97 @@ def tournament_selection(population, tournament_size=2):
     
     return best_candidate
 
+def nsga2_muni(data, population_size=POPULATION_SIZE, max_generations=NUM_GENERATIONS, crossover_rate=CROSSOVER_RATE, mutation_rate=MUTATION_RATE, verbose=False):
+    """
+    Run NSGA-II algorithm on the MUni dataset.
+    
+    Args:
+        data: Dictionary with problem data
+        population_size: Size of the population
+        max_generations: Maximum number of generations
+        crossover_rate: Probability of crossover
+        mutation_rate: Probability of mutation
+        verbose: If True, print progress information
+    
+    Returns:
+        (best_solution, fronts, metrics)
+    """
+    # Initialize population and evaluate
+    population = initialize_population(data, population_size)
+    evaluate_population(population, data)
+    fronts = fast_nondominated_sort(population)
+    
+    # Initialize metrics tracking
+    metrics = {
+        'hypervolume': [],
+        'spacing': [],
+        'igd': [],
+        'best_fitness': [],
+        'average_fitness': [],
+        'pareto_front_size': [],
+        'constraint_violations': []
+    }
+    
+    # Track best solution and set reference point for hypervolume
+    best_solution = None
+    reference_point = [1000, 100, 100, 100, 100, 100]  # High values for each objective
+    
+    # Main loop
+    for generation in range(max_generations):
+        if verbose:
+            print("\nGeneration {}/{}".format(generation+1, max_generations))
+        
+        # Calculate crowding distance for each front
+        for front in fronts:
+            crowding_distance_assignment(front)
+        
+        # Create offspring
+        offspring = create_offspring(population, generation, data, population_size, 
+                                    crossover_rate, mutation_rate, metrics)
+        
+        # Evaluate offspring
+        evaluate_population(offspring, data)
+        
+        # Combine parent and offspring populations and do non-dominated sorting
+        combined_population = population + offspring
+        combined_fronts = fast_nondominated_sort(combined_population)
+        
+        # Select next generation
+        next_population = select_next_generation(combined_fronts, population_size)
+        
+        # Handle diversity preservation
+        next_population = handle_diversity_preservation(
+            next_population, metrics, data, population_size, verbose)
+        
+        # Update population and fronts
+        population = next_population
+        fronts = fast_nondominated_sort(population)
+        
+        # Update metrics and best solution
+        best_solution, metrics = update_metrics(
+            fronts, population, metrics, reference_point, best_solution, data, verbose)
+    
+    # Return best solution, final fronts, and metrics
+    if best_solution is None and population:
+        best_solution = find_best_solution(population)
+    
+    return best_solution, fronts, metrics
+
 def run_muni_optimization(verbose=False):
     """Run the optimization on the MUni dataset."""
     print("Loading munifspsspr17 dataset...")
     data = load_muni_data(os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'munifspsspr17.json'))
+    
+    # Create a reference front for IGD calculation
+    # Using realistic reference points based on typical violation ranges
+    data['reference_front'] = [
+        [0, 0, 0, 0, 0, 0],      # Perfect solution (no violations)
+        [100, 10, 10, 10, 10, 10],  # Moderate room conflicts
+        [10, 100, 10, 10, 10, 10],  # Moderate time conflicts
+        [10, 10, 100, 10, 10, 10],  # Moderate distribution conflicts
+        [10, 10, 10, 100, 10, 10],  # Moderate student conflicts
+        [10, 10, 10, 10, 100, 10],  # Moderate capacity violations
+    ]
     
     print("\nRunning NSGA-II optimization...")
     best_solution, fronts, metrics = nsga2_muni(data, verbose=True)
@@ -855,27 +884,121 @@ def run_muni_optimization(verbose=False):
     print("\nBest solution:\n")
     print_solution_stats(best_solution, data)
     
+    # Process metrics to ensure no tuple keys remain
+    processed_metrics = process_metrics_for_serialization(metrics)
+    
     # Plot metrics
-    plot_metrics(metrics)
+    plot_metrics(processed_metrics)
     
     # Plot constraint violations over generations
-    violations = [v['total_counts'] for v in metrics['constraint_violations']]
+    violations = [v['total_counts'] for v in processed_metrics['constraint_violations']]
+    
+    # Add debug print to check if student_conflicts exists in the data
+    if violations:
+        print("\nDebug - Constraint violation keys in first generation:")
+        for key in violations[0].keys():
+            print(f"  - {key}")
+    
     plot_constraint_violations(violations)
     
     # Plot Pareto front size over generations
-    plot_pareto_size(metrics['pareto_front_size'])
+    plot_pareto_size(processed_metrics['pareto_front_size'])
     
-    # Save results to file with custom JSON encoder that handles tuple keys
+    # Convert any tuple keys in solution assignments before saving
     try:
-        save_results(best_solution, fronts, metrics, data, 'nsga2_muni_results.json')
+        # Create a deep copy of the best solution with string keys
+        modified_solution = best_solution.copy()
+        modified_solution.assignments = convert_tuple_keys_in_dict(best_solution.assignments)
+        
+        # Process constraint violations if they exist
+        if hasattr(modified_solution, 'constraint_violations') and modified_solution.constraint_violations:
+            modified_solution.constraint_violations = convert_tuple_keys_in_dict(modified_solution.constraint_violations)
+        
+        # Process fronts to ensure no tuple keys
+        processed_fronts = []
+        for front in fronts:
+            processed_front = []
+            for solution in front:
+                s_copy = solution.copy()
+                s_copy.assignments = convert_tuple_keys_in_dict(solution.assignments)
+                if hasattr(s_copy, 'constraint_violations') and s_copy.constraint_violations:
+                    s_copy.constraint_violations = convert_tuple_keys_in_dict(s_copy.constraint_violations)
+                processed_front.append(s_copy)
+            processed_fronts.append(processed_front)
+        
+        save_results(modified_solution, processed_fronts, processed_metrics, data, 'nsga2_muni_results.json')
         print("\nNSGA-II optimization on munifspsspr17 dataset completed successfully.")
+        print("Results saved to nsga2_muni_results.json")
     except Exception as e:
         print(f"Error saving detailed results: {e}")
+        # Try direct JSON serialization with custom encoder
+        try:
+            import json
+            with open('nsga2_muni_results_direct.json', 'w') as f:
+                # Create a simplified result structure
+                simple_results = {
+                    'best_solution': {
+                        'fitness': best_solution.fitness,
+                        'num_assigned': len(best_solution.assignments)
+                    },
+                    'metrics': {
+                        'hypervolume': processed_metrics['hypervolume'],
+                        'spacing': processed_metrics['spacing'],
+                        'pareto_front_size': processed_metrics['pareto_front_size'],
+                        'best_fitness': processed_metrics['best_fitness'],
+                        'average_fitness': processed_metrics['average_fitness']
+                    }
+                }
+                json.dump(simple_results, f, indent=2, cls=TupleKeyEncoder)
+            print("Simplified results saved to nsga2_muni_results_direct.json")
+        except Exception as e2:
+            print(f"All saving attempts failed: {e2}")
     
     return best_solution, fronts, metrics, data
+
+def convert_value(v):
+    """Helper function to convert a single value for JSON serialization."""
+    if isinstance(v, dict):
+        return convert_tuple_keys_in_dict(v)
+    elif isinstance(v, tuple):
+        return str(v)
+    elif isinstance(v, list):
+        return [convert_value(item) for item in v]
+    else:
+        return v
+
+def convert_tuple_keys_in_dict(d):
+    """Convert tuple keys in a dictionary to string keys recursively."""
+    if not isinstance(d, dict):
+        return d
+    
+    result = {}
+    for k, v in d.items():
+        # Convert key if it's a tuple
+        new_key = str(k) if isinstance(k, tuple) else k
+        # Process value using helper function
+        result[new_key] = convert_value(v)
+    
+    return result
+
+def process_metrics_for_serialization(metrics):
+    """Process metrics to ensure they can be serialized to JSON."""
+    processed_metrics = {}
+    
+    for key, value in metrics.items():
+        if key == 'constraint_violations':
+            # Process constraint violations list
+            processed_violations = []
+            for violation_data in value:
+                processed_violation = convert_tuple_keys_in_dict(violation_data)
+                processed_violations.append(processed_violation)
+            processed_metrics[key] = processed_violations
+        else:
+            # Other metrics can be copied directly
+            processed_metrics[key] = value
+    
+    return processed_metrics
 
 if __name__ == "__main__":
     # Run the NSGA-II optimization on munifspsspr17 dataset
     best_solution, fronts, metrics, data = run_muni_optimization()
-    print("\nNSGA-II optimization on munifspsspr17 dataset completed successfully.")
-    print("Results saved to nsga2_muni_results.json")

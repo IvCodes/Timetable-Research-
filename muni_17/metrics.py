@@ -168,48 +168,6 @@ def _check_time_conflicts(solution, data, violations):
     
     return violations
 
-def _check_same_time_constraint(solution, assigned_classes, violations):
-    """Check 'SameTime' distribution constraint"""
-    times = set()
-    for c_id in assigned_classes:
-        assignment = solution.assignments.get(c_id)
-        if assignment and len(assignment) >= 2:
-            times.add(assignment[1])
-    
-    if len(times) > 1:  # Classes are not at the same time
-        for i in range(len(assigned_classes)):
-            for j in range(i+1, len(assigned_classes)):
-                violations['distribution_conflicts'][(assigned_classes[i], assigned_classes[j])] = 1
-                violations['total_by_type']['distribution_conflicts'] += 1
-    
-    return violations
-
-def _check_different_time_constraint(solution, assigned_classes, violations):
-    """Check 'DifferentTime' distribution constraint"""
-    time_classes = {}
-    
-    # Group classes by time slot
-    for c_id in assigned_classes:
-        assignment = solution.assignments.get(c_id)
-        if not assignment or len(assignment) < 2:
-            continue
-            
-        time_id = assignment[1]
-        time_classes.setdefault(time_id, []).append(c_id)
-    
-    # Record conflicts for classes that should be at different times but aren't
-    for classes in time_classes.values():
-        if len(classes) <= 1:
-            continue  # No conflicts if only one class or none at this time
-            
-        # Record all pairwise conflicts
-        for i, class1 in enumerate(classes):
-            for class2 in classes[i+1:]:
-                violations['distribution_conflicts'][(class1, class2)] = 1
-                violations['total_by_type']['distribution_conflicts'] += 1
-    
-    return violations
-
 def _check_distribution_constraints(solution, data, violations):
     """Check distribution constraints"""
     distribution_constraints = data.get('distribution_constraints', [])
@@ -280,6 +238,48 @@ def _check_capacity_violations(solution, data, violations):
             if enrolled_students > room_capacity:
                 violations['capacity_violations'][class_id] = enrolled_students - room_capacity
                 violations['total_by_type']['capacity_violations'] += 1
+    
+    return violations
+
+def _check_same_time_constraint(solution, assigned_classes, violations):
+    """Check 'SameTime' distribution constraint"""
+    times = set()
+    for c_id in assigned_classes:
+        assignment = solution.assignments.get(c_id)
+        if assignment and len(assignment) >= 2:
+            times.add(assignment[1])
+    
+    if len(times) > 1:  # Classes are not at the same time
+        for i in range(len(assigned_classes)):
+            for j in range(i+1, len(assigned_classes)):
+                violations['distribution_conflicts'][(assigned_classes[i], assigned_classes[j])] = 1
+                violations['total_by_type']['distribution_conflicts'] += 1
+    
+    return violations
+
+def _check_different_time_constraint(solution, assigned_classes, violations):
+    """Check 'DifferentTime' distribution constraint"""
+    time_classes = {}
+    
+    # Group classes by time slot
+    for c_id in assigned_classes:
+        assignment = solution.assignments.get(c_id)
+        if not assignment or len(assignment) < 2:
+            continue
+            
+        time_id = assignment[1]
+        time_classes.setdefault(time_id, []).append(c_id)
+    
+    # Record conflicts for classes that should be at different times but aren't
+    for classes in time_classes.values():
+        if len(classes) <= 1:
+            continue  # No conflicts if only one class or none at this time
+            
+        # Record all pairwise conflicts
+        for i, class1 in enumerate(classes):
+            for class2 in classes[i+1:]:
+                violations['distribution_conflicts'][(class1, class2)] = 1
+                violations['total_by_type']['distribution_conflicts'] += 1
     
     return violations
 
@@ -399,18 +399,25 @@ def calculate_igd(front, reference_front):
     if not front or not reference_front:
         return float('inf')
     
-    # Convert to numpy arrays
-    points = np.array(front)
-    ref_points = np.array(reference_front)
+    # Convert to numpy arrays and normalize the values
+    points = np.array(front, dtype=float)
+    ref_points = np.array(reference_front, dtype=float)
+    
+    # Find max values for normalization
+    max_values = np.maximum(np.max(points, axis=0), np.max(ref_points, axis=0))
+    max_values[max_values == 0] = 1  # Avoid division by zero
+    
+    # Normalize both sets of points
+    points = points / max_values
+    ref_points = ref_points / max_values
     
     # Calculate minimum distance from each reference point to any point in the front
     total_dist = 0.0
     for ref_point in ref_points:
-        min_dist = float('inf')
-        for point in points:
-            # Euclidean distance
-            dist = np.sqrt(np.sum((ref_point - point)**2))
-            min_dist = min(min_dist, dist)
+        # Calculate distances to all points
+        distances = np.sqrt(np.sum((points - ref_point)**2, axis=1))
+        # Take minimum distance
+        min_dist = np.min(distances)
         total_dist += min_dist
     
     # Average distance

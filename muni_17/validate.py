@@ -19,6 +19,17 @@ def get_valid_rooms(data, class_id):
     
     return valid_rooms
 
+def _has_time_conflict(class_id, room_id, time_id, solution):
+    """Check if there is a time conflict for the given room and time."""
+    for other_class, assignment in solution.assignments.items():
+        if (other_class != class_id and 
+            assignment and 
+            len(assignment) >= 2 and
+            assignment[0] == room_id and 
+            assignment[1] == time_id):
+            return True
+    return False
+
 def get_valid_times(data, class_id, room_id, solution):
     """
     Get valid times for a class in a specific room.
@@ -41,14 +52,7 @@ def get_valid_times(data, class_id, room_id, solution):
             continue
             
         # Check for conflicts with other classes in the same room
-        conflict = False
-        for other_class, assignment in solution.assignments.items():
-            if other_class != class_id and assignment and len(assignment) >= 2:
-                if assignment[0] == room_id and assignment[1] == time_id:
-                    conflict = True
-                    break
-        
-        if not conflict:
+        if not _has_time_conflict(class_id, room_id, time_id, solution):
             valid_times.append(time_id)
     
     return valid_times

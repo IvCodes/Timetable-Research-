@@ -5026,6 +5026,7 @@
 					"config": {
 						"subpart": {
 							"class": [
+								
 								{
 									"room": {
 										"_id": "39",
